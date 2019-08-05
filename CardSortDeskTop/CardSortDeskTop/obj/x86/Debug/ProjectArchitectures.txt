@@ -1,1 +1,1 @@
-C:\Users\schlu\source\repos\CardSortDesktop\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop.csproj;x86
+C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop.csproj;x86

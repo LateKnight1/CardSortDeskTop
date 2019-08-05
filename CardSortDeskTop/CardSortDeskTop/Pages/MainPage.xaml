@@ -9,6 +9,29 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <NavigationView
+            x:Name="navView"
+            PaneClosing="NavView_PaneClosing"
+            PaneOpening="NavView_PaneOpening"
+            ItemInvoked="NavView_ItemInvoked"
+            Grid.RowSpan="2"
+            IsBackEnabled="False"
+            IsBackButtonVisible="Collapsed"
+            IsSettingsVisible="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"/>
+            </NavigationView.MenuItems>
+        </NavigationView>
     </Grid>
 </Page>
