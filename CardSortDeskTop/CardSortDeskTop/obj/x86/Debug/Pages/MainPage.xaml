@@ -31,6 +31,10 @@
                     Tag="home"
                     Content="Home"
                     Icon="Home"/>
+                <NavigationViewItem
+                    Tag="addDeck"
+                    Content="Add Deck"
+                    Icon="Add"/>
             </NavigationView.MenuItems>
         </NavigationView>
     </Grid>
