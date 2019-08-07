@@ -18,11 +18,11 @@
             <RowDefinition/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <NavigationView
+        <NavigationView x:ConnectionId='2'
             x:Name="navView"
-            PaneClosing="NavView_PaneClosing"
-            PaneOpening="NavView_PaneOpening"
-            ItemInvoked="NavView_ItemInvoked"
+                                             
+                                             
+                                             
             Grid.RowSpan="2"
             IsBackEnabled="False"
             IsBackButtonVisible="Collapsed"
@@ -70,21 +70,21 @@
                     Icon="Find"/>
             </NavigationView.MenuItems>
         </NavigationView>
-        <ListView
+        <ListView x:ConnectionId='3'
             x:Name="deckListView"
             Grid.Row="0"
             Grid.Column="0"
             Margin="15 50 25 0"
             FontFamily="MV Boli"
             ItemsSource="{Binding deckNames}"/>
-        <custom:DataGrid
+        <custom:DataGrid x:ConnectionId='4'
             x:Name="cardsBox"
             Grid.Column="1"
             Grid.Row="0"
             Grid.RowSpan="2"
             Margin="25 50 15 20"
             ItemsSource="{Binding activeCardsList}"/>
-        <Button
+        <Button x:ConnectionId='5'
             x:Name="cardSearch"
             Grid.Column="0"
             Grid.Row="1"
@@ -93,7 +93,8 @@
             Margin="15 20 25 20"
             Content="Search Cards"
             Background="Green"
-            Click="CardSearch_Click"
+                                    
             FontFamily="MV Boli"/>
     </Grid>
 </Page>
+

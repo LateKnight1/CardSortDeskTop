@@ -12,14 +12,14 @@ namespace CardSortDeskTop
     public sealed partial class MainPage : Page
     {
         public List<string> deckNames { get; private set; }
-        public List<Card> activeCardsList { get; private set; }
+        public List<string/*Card*/> activeCardsList { get; private set; }
 
         public MainPage()
         {
             this.InitializeComponent();
 
             deckNames = new List<string>();
-            activeCardsList = new List<Card>();
+            activeCardsList = new List<string/*Card*/>();
             DataContext = this;
         }
 
