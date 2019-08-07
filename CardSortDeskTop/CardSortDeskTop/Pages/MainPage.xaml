@@ -5,6 +5,7 @@
     xmlns:local="using:CardSortDeskTop"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:custom="using:MyToolkit.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -69,5 +70,31 @@
                     Icon="Find"/>
             </NavigationView.MenuItems>
         </NavigationView>
+        <ListView
+            x:Name="deckListView"
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="15 50 25 0"
+            FontFamily="MV Boli"
+            ItemsSource="{Binding deckNames}"/>
+        <custom:DataGrid
+            x:Name="cardsBox"
+            Grid.Column="1"
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Margin="25 50 15 20"
+            ItemsSource="{Binding activeCardsList}"/>
+        <Button
+            x:Name="cardSearch"
+            Grid.Column="0"
+            Grid.Row="1"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="15 20 25 20"
+            Content="Search Cards"
+            Background="Green"
+            CornerRadius="10"
+            Click="CardSearch_Click"
+            FontFamily="MV Boli"/>
     </Grid>
 </Page>

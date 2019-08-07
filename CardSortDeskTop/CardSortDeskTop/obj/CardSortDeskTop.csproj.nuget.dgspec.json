@@ -40,6 +40,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.8, )"
+            },
+            "MyToolkit.Extended": {
+              "target": "Package",
+              "version": "[2.5.16, )"
             }
           },
           "imports": [
