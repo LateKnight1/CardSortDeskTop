@@ -17,11 +17,11 @@
             <RowDefinition/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <NavigationView
+        <NavigationView x:ConnectionId='2'
             x:Name="navView"
-            PaneClosing="NavView_PaneClosing"
-            PaneOpening="NavView_PaneOpening"
-            ItemInvoked="NavView_ItemInvoked"
+                                             
+                                             
+                                             
             Grid.RowSpan="2"
             IsBackEnabled="False"
             IsBackButtonVisible="Collapsed"
@@ -35,10 +35,8 @@
                     Tag="addDeck"
                     Content="Add Deck"
                     Icon="Add"/>
-                <NavigationViewItem
-                    Tag="addCard"
-                    Content="Add Card"
             </NavigationView.MenuItems>
         </NavigationView>
     </Grid>
 </Page>
+

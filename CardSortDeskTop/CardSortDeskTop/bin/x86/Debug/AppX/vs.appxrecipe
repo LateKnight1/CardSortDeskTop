@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DMCPHERS-3420</Machine>
-    <WindowsUser>dmcphers</WindowsUser>
+    <Machine>DESKTOP-LIJ8NLA</Machine>
+    <WindowsUser>schlu</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f88cf4a2-6da3-4b58-8e68-bde9ddd80b95</PackageIdentityName>
     <PackageIdentityPublisher>CN=schlu</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D74F90C7E81E4B4203AEF2AC2EA0466E5C19D11B9C5B3DEA7838E3DE8D4391F0</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>848BCC25918CE61010C7DDCC248146DE6E6D95CFCAFA4F0C22DD937E2B17913A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f88cf4a2-6da3-4b58-8e68-bde9ddd80b95_1.0.0.0_x86__mjfnw1jv0451c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f88cf4a2-6da3-4b58-8e68-bde9ddd80b95_mjfnw1jv0451c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>f88cf4a2-6da3-4b58-8e68-bde9ddd80b95</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-06T19:03:23.160</Modified>
+      <Modified>2019-08-07T01:39:23.040</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.exe">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.exe">
       <PackagePath>entrypoint\CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-08-06T19:03:22.143</Modified>
+      <Modified>2019-08-07T01:39:20.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,67 +46,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T07:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-08-05T18:54:29.241</Modified>
+      <Modified>2019-08-07T01:00:34.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-08-05T18:54:29.222</Modified>
+      <Modified>2019-08-07T01:00:34.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-05T18:54:29.224</Modified>
+      <Modified>2019-08-07T01:00:34.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-05T18:54:29.225</Modified>
+      <Modified>2019-08-07T01:00:34.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-05T18:54:29.226</Modified>
+      <Modified>2019-08-07T01:00:34.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-05T18:54:29.227</Modified>
+      <Modified>2019-08-07T01:00:34.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-05T18:54:29.228</Modified>
+      <Modified>2019-08-07T01:00:34.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-05T18:54:29.229</Modified>
+      <Modified>2019-08-07T01:00:34.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.xr.xml">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.xr.xml">
       <PackagePath>CardSortDeskTop.xr.xml</PackagePath>
-      <Modified>2019-08-05T19:02:27.343</Modified>
+      <Modified>2019-08-07T01:00:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-06T19:03:21.945</Modified>
+      <Modified>2019-08-07T01:39:18.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2019-08-06T19:03:21.946</Modified>
+      <Modified>2019-08-07T01:39:18.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-23T06:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-08-05T19:00:52.786</Modified>
+      <Modified>2019-08-07T01:39:20.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\CardSortDeskTop.exe">
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\CardSortDeskTop.exe">
       <PackagePath>CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-08-06T19:03:22.943</Modified>
+      <Modified>2019-08-07T01:39:22.994</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
