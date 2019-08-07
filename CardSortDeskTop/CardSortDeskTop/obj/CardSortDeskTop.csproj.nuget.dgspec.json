@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj": {}
+    "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj": {
+    "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
+        "projectUniqueName": "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
         "projectName": "CardSortDeskTop",
-        "projectPath": "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
+        "projectPath": "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
         "packagesPath": "C:\\Users\\schlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\obj\\",
+        "outputPath": "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -22,24 +22,28 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "uap10.0.16299"
+          "uap10.0.17134"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.16299": {
+          "uap10.0.17134": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "uap10.0.16299": {
+        "uap10.0.17134": {
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.8, )"
+            },
+            "MyToolkit.Extended": {
+              "target": "Package",
+              "version": "[2.5.16, )"
             }
           },
           "imports": [

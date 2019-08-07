@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "UAP,Version=v10.0.16299": {
+    "UAP,Version=v10.0.17134": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -203,6 +203,27 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -308,7 +329,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.16299/win10-arm": {
+    "UAP,Version=v10.0.17134/win10-arm": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -509,6 +530,27 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -794,7 +836,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.16299/win10-arm-aot": {
+    "UAP,Version=v10.0.17134/win10-arm-aot": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -995,6 +1037,27 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -1281,7 +1344,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.16299/win10-arm64-aot": {
+    "UAP,Version=v10.0.17134/win10-arm64-aot": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -1482,6 +1545,27 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -1768,7 +1852,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.16299/win10-x64": {
+    "UAP,Version=v10.0.17134/win10-x64": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -1969,6 +2053,27 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -2254,7 +2359,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.16299/win10-x64-aot": {
+    "UAP,Version=v10.0.17134/win10-x64-aot": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -2455,6 +2560,27 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -2741,7 +2867,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.16299/win10-x86": {
+    "UAP,Version=v10.0.17134/win10-x86": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -2942,6 +3068,27 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -3227,7 +3374,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.16299/win10-x86-aot": {
+    "UAP,Version=v10.0.17134/win10-x86-aot": {
       "Microsoft.Net.Native.Compiler/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -3428,6 +3575,27 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "MyToolkit/2.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll": {}
+        }
+      },
+      "MyToolkit.Extended/2.5.16": {
+        "type": "package",
+        "dependencies": {
+          "MyToolkit": "2.5.16"
+        },
+        "compile": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/MyToolkit.Extended.dll": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -4095,6 +4263,62 @@
         "ref/uap10.0.15138/mscorlib.dll",
         "ref/uap10.0.15138/netstandard.dll",
         "runtime.json"
+      ]
+    },
+    "MyToolkit/2.5.16": {
+      "sha512": "i+kn8csbGif1n4it/McABSvi6qdcr63Sb6JG/00y5838c/hEiZGej/WU4/nstxhCBi8/c49jT/KCysXAC/uTGg==",
+      "type": "package",
+      "path": "mytoolkit/2.5.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable-net45+wp8+win8+wpa81/CodeContracts/MyToolkit.Contracts.dll",
+        "lib/portable-net45+wp8+win8+wpa81/MyToolkit.dll",
+        "lib/portable-net45+wp8+win8+wpa81/MyToolkit.xml",
+        "lib/portable-sl5+wp71/MyToolkit.dll",
+        "lib/portable-sl5+wp71/MyToolkit.xml",
+        "mytoolkit.2.5.16.nupkg.sha512",
+        "mytoolkit.nuspec"
+      ]
+    },
+    "MyToolkit.Extended/2.5.16": {
+      "sha512": "BkJAp6+lhm/esvfmjY1zpatMOErAGsGNlVOo/YtvqBB+9gbFWPbe4tD777NNBRqFIiRoVflPxSxFYYqES7Cbkg==",
+      "type": "package",
+      "path": "mytoolkit.extended/2.5.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MyToolkit.Extended.dll",
+        "lib/net40/MyToolkit.Extended.xml",
+        "lib/net45/MyToolkit.Extended.dll",
+        "lib/net45/MyToolkit.Extended.xml",
+        "lib/portable-wpa81+win8/MyToolkit.Extended.dll",
+        "lib/portable-wpa81+win8/MyToolkit.Extended.pri",
+        "lib/portable-wpa81+win8/MyToolkit.Extended.xml",
+        "lib/portable-wpa81+win8/MyToolkit.Extended/Controls/DatePicker.xbf",
+        "lib/portable-wpa81+win8/MyToolkit.Extended/Controls/TimePicker.xbf",
+        "lib/portable-wpa81+win8/MyToolkit.Extended/MyToolkit.Extended.pdb",
+        "lib/portable-wpa81+win8/MyToolkit.Extended/MyToolkit.Extended.xr.xml",
+        "lib/portable-wpa81+win8/MyToolkit.Extended/Themes/Generic.xbf",
+        "lib/portable-wpa81+win8/MyToolkit.Extended/UI/Popups/ListPickerBox.xbf",
+        "lib/sl4-wp71/MyToolkit.Extended.dll",
+        "lib/sl4-wp71/MyToolkit.Extended.xml",
+        "lib/sl4-wp71/de/MyToolkit.Extended.resources.dll",
+        "lib/sl4-wp71/fr/MyToolkit.Extended.resources.dll",
+        "lib/sl50/MyToolkit.Extended.dll",
+        "lib/sl50/MyToolkit.Extended.xml",
+        "lib/uap10.0/MyToolkit.Extended.dll",
+        "lib/uap10.0/MyToolkit.Extended.pri",
+        "lib/uap10.0/MyToolkit.Extended.xml",
+        "lib/uap10.0/MyToolkit.Extended/MyToolkit.Extended.pdb",
+        "lib/uap10.0/MyToolkit.Extended/MyToolkit.Extended.xr.xml",
+        "lib/uap10.0/MyToolkit.Extended/Themes/Generic.xbf",
+        "lib/wp80/MyToolkit.Extended.dll",
+        "lib/wp80/MyToolkit.Extended.xml",
+        "lib/wp80/de/MyToolkit.Extended.resources.dll",
+        "lib/wp80/fr/MyToolkit.Extended.resources.dll",
+        "mytoolkit.extended.2.5.16.nupkg.sha512",
+        "mytoolkit.extended.nuspec"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -8145,8 +8369,9 @@
     }
   },
   "projectFileDependencyGroups": {
-    "UAP,Version=v10.0.16299": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.8"
+    "UAP,Version=v10.0.17134": [
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.8",
+      "MyToolkit.Extended >= 2.5.16"
     ]
   },
   "packageFolders": {
@@ -8156,11 +8381,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
+      "projectUniqueName": "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
       "projectName": "CardSortDeskTop",
-      "projectPath": "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
+      "projectPath": "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop.csproj",
       "packagesPath": "C:\\Users\\schlu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\schlu\\source\\repos\\CardSortDesktop\\CardSortDeskTop\\CardSortDeskTop\\obj\\",
+      "outputPath": "C:\\Users\\schlu\\Desktop\\Git Projects\\CardSortDeskTop\\CardSortDeskTop\\CardSortDeskTop\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8171,24 +8396,28 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "uap10.0.16299"
+        "uap10.0.17134"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "uap10.0.16299": {
+        "uap10.0.17134": {
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
-      "uap10.0.16299": {
+      "uap10.0.17134": {
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.8, )"
+          },
+          "MyToolkit.Extended": {
+            "target": "Package",
+            "version": "[2.5.16, )"
           }
         },
         "imports": [

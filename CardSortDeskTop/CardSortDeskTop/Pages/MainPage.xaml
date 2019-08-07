@@ -5,10 +5,95 @@
     xmlns:local="using:CardSortDeskTop"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:custom="using:MyToolkit.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <NavigationView
+            x:Name="navView"
+            PaneClosing="NavView_PaneClosing"
+            PaneOpening="NavView_PaneOpening"
+            ItemInvoked="NavView_ItemInvoked"
+            Grid.RowSpan="2"
+            IsBackEnabled="False"
+            IsBackButtonVisible="Collapsed"
+            IsSettingsVisible="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"/>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItem
+                    Tag="addDeck"
+                    Content="Add Deck"
+                    Icon="Add"/>
+                <NavigationViewItem
+                    Tag="addCard"
+                    Content="Add Card"
+                    Icon="Document"/>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItem
+                    Tag="remDeck"
+                    Content="Remove Deck"
+                    Icon="Clear"/>
+                <NavigationViewItem
+                    Tag="remCard"
+                    Content="Remove Card"
+                    Icon="ClearSelection"/>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItem
+                    Tag="editCard"
+                    Content="Edit Card"
+                    Icon="Edit"/>
+                <NavigationViewItem
+                    Tag="transCards"
+                    Content="Transfer Cards"
+                    Icon="Remote"/>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItem
+                    Tag="graphs"
+                    Content="Graphs"
+                    Icon="FourBars"/>
+                <NavigationViewItem
+                    Tag="search"
+                    Content="Search"
+                    Icon="Find"/>
+            </NavigationView.MenuItems>
+        </NavigationView>
+        <ListView
+            x:Name="deckListView"
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="15 50 25 0"
+            FontFamily="MV Boli"
+            ItemsSource="{Binding deckNames}"/>
+        <custom:DataGrid
+            x:Name="cardsBox"
+            Grid.Column="1"
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Margin="25 50 15 20"
+            ItemsSource="{Binding activeCardsList}"/>
+        <Button
+            x:Name="cardSearch"
+            Grid.Column="0"
+            Grid.Row="1"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="15 20 25 20"
+            Content="Search Cards"
+            Background="Green"
+            Click="CardSearch_Click"
+            FontFamily="MV Boli"/>
     </Grid>
 </Page>
