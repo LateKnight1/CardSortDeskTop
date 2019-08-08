@@ -26,5 +26,25 @@ namespace CardSortDeskTop
         {
             this.InitializeComponent();
         }
+
+        private void Page_Loading(FrameworkElement sender, object args)
+        {
+
+        }
+
+        private void NavigationView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)
+        {
+
+        }
+
+        private void NavigationView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
+        {
+
+        }
+
+        private void NavigationView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
+        {
+
+        }
     }
 }

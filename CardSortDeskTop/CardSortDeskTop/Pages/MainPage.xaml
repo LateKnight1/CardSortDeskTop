@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loading="Page_Loading">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -18,8 +19,16 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-        <muxc:NavigationView>
-            
+        <muxc:NavigationView
+            IsBackButtonVisible="Collapsed"
+            IsBackEnabled="False"
+            PaneClosing="NavigationView_PaneClosing"
+            PaneOpening="NavigationView_PaneOpening"
+            ItemInvoked="NavigationView_ItemInvoked"
+            PaneDisplayMode="LeftCompact"
+            Grid.RowSpan="2"
+            x:Name="navView"
+            IsSettingsVisible="False">
         </muxc:NavigationView>
     </Grid>
 </Page>

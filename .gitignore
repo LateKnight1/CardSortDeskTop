@@ -8,3 +8,7 @@ CardSortDeskTop/\.vs/CardSortDeskTop/v16/
 *.dll
 
 *.winmd
+
+*.xbf
+
+*.pdb
