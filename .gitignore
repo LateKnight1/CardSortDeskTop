@@ -2,3 +2,13 @@
 CardSortDeskTop/\.vs/CardSortDeskTop/v16/
 
 *.cache
+
+*.exe
+
+*.dll
+
+*.winmd
+
+*.xbf
+
+*.pdb
