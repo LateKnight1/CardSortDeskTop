@@ -45,6 +45,7 @@
       <RootProperty Name="Icon" />
       <RootProperty Name="FontFamily" />
     </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" />
     <RootType FullName="CardSortDeskTop.MainPage" />
   </Roots.RootTypes>
 </Roots>

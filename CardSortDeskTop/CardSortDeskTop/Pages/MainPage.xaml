@@ -36,6 +36,7 @@
                     Content="Home"
                     Icon="Home"
                     FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
                 <muxc:NavigationViewItem
                     Tag="addDeck"
                     Content="Add Deck"
@@ -46,6 +47,7 @@
                     Content="Add Card"
                     Icon="Document"
                     FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
                 <muxc:NavigationViewItem
                     Tag="remDeck"
                     Content="Remove Deck"
@@ -56,10 +58,27 @@
                     Content="Remove Card"
                     Icon="Delete"
                     FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
                 <muxc:NavigationViewItem
                     Tag="editCard"
                     Content="Edit Card"
                     Icon="Edit"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="transCards"
+                    Content="Transfer Cards"
+                    Icon="Remote"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="graphs"
+                    Content="Graphs"
+                    Icon="FourBars"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="search"
+                    Content="Search Cards"
+                    Icon="Find"
                     FontFamily="MV Boli"/>
             </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
