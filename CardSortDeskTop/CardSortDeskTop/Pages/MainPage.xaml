@@ -28,7 +28,40 @@
             PaneDisplayMode="LeftCompact"
             Grid.RowSpan="2"
             x:Name="navView"
-            IsSettingsVisible="False">
+            IsSettingsVisible="False"
+            FontFamily="MV Boli">
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="addDeck"
+                    Content="Add Deck"
+                    Icon="Folder"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="addCard"
+                    Content="Add Card"
+                    Icon="Document"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="remDeck"
+                    Content="Remove Deck"
+                    Icon="Cancel"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="remCard"
+                    Content="Remove Card"
+                    Icon="Delete"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="editCard"
+                    Content="Edit Card"
+                    Icon="Edit"
+                    FontFamily="MV Boli"/>
+            </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
     </Grid>
 </Page>

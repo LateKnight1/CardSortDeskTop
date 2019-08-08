@@ -19,6 +19,8 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -30,9 +32,18 @@
       <RootProperty Name="IsBackButtonVisible" />
       <RootProperty Name="IsBackEnabled" />
       <RootProperty Name="PaneDisplayMode" />
+      <RootProperty Name="IsSettingsVisible" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="MenuItems" />
       <RootEvent Name="PaneClosing" />
       <RootEvent Name="PaneOpening" />
       <RootEvent Name="ItemInvoked" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Tag" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="CardSortDeskTop.MainPage" />
   </Roots.RootTypes>

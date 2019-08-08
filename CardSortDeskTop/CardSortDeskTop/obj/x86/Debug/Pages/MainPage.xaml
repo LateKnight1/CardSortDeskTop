@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="CardSortDeskTop.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                          >
 
     <Grid>
         <Grid.RowDefinitions>
@@ -18,8 +19,24 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-        <muxc:NavigationView>
-            
+        <muxc:NavigationView x:ConnectionId='2'
+            IsBackButtonVisible="Collapsed"
+            IsBackEnabled="False"
+                                                    
+                                                    
+                                                    
+            PaneDisplayMode="LeftCompact"
+            Grid.RowSpan="2"
+            x:Name="navView"
+            IsSettingsVisible="False"
+            FontFamily="MV Boli">
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"
+                    FontFamily="MV Boli"/>
+            </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
     </Grid>
 </Page>
