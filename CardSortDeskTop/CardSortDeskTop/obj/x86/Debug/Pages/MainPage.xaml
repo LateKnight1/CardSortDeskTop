@@ -16,10 +16,15 @@
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition x:ConnectionId='2' x:Name="menuColumn"/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-        <muxc:NavigationView x:ConnectionId='2'
+        <ListView
+            Margin="0 40 25 0"
+            Grid.Column="0">
+            <x:String>temp</x:String>
+        </ListView>
+        <muxc:NavigationView x:ConnectionId='3'
             IsBackButtonVisible="Collapsed"
             IsBackEnabled="False"
                                                     
@@ -27,6 +32,7 @@
                                                     
             PaneDisplayMode="LeftCompact"
             Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
             x:Name="navView"
             IsSettingsVisible="False"
             FontFamily="MV Boli">
@@ -82,7 +88,10 @@
                     FontFamily="MV Boli"/>
             </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
-        <ListView/>
+        <ListView
+            Margin="0 40 25 0"
+            Grid.Column="1">
+            <x:String>temp</x:String></ListView>
     </Grid>
 </Page>
 

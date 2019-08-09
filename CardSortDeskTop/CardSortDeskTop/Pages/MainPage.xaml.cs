@@ -25,6 +25,8 @@ namespace CardSortDeskTop
         public MainPage()
         {
             this.InitializeComponent();
+            menuColumn.Width = new GridLength(40);
+            navView.IsPaneOpen = false;
         }
 
         private void Page_Loading(FrameworkElement sender, object args)
@@ -34,12 +36,12 @@ namespace CardSortDeskTop
 
         private void NavigationView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)
         {
-
+            menuColumn.Width = new GridLength(40);
         }
 
         private void NavigationView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
         {
-
+            menuColumn.Width = new GridLength(320);
         }
 
         private void NavigationView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
