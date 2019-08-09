@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:grid="using:MyToolkit.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
                           >
@@ -19,7 +20,13 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-        <muxc:NavigationView x:ConnectionId='2'
+        <ListView x:ConnectionId='2'
+            Margin="40 40 25 0"
+            Grid.Column="0"
+            x:Name="deckBox"
+            ItemsSource="{Binding deckNames}"/>
+
+        <muxc:NavigationView x:ConnectionId='3'
             IsBackButtonVisible="Collapsed"
             IsBackEnabled="False"
                                                     
@@ -27,6 +34,7 @@
                                                     
             PaneDisplayMode="LeftCompact"
             Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
             x:Name="navView"
             IsSettingsVisible="False"
             FontFamily="MV Boli">
@@ -82,6 +90,20 @@
                     FontFamily="MV Boli"/>
             </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
+        <grid:DataGrid x:ConnectionId='4'
+            Grid.Column="1"
+            Margin="15 40 25 0"
+            x:Name="cardBox"
+            ItemsSource="{Binding cards}"/>
+        <Button x:ConnectionId='5' Grid.Column="0"
+                Grid.Row="1"
+                x:Name="openButton"
+                                        
+                Margin="40 20 15 20"
+                Content="Open Deck"
+                Background="DarkGreen"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"/>
     </Grid>
 </Page>
 
