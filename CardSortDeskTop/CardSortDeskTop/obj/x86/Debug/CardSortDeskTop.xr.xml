@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="cards" />
     <RootPropertyPathName Name="deckNames" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -28,6 +29,8 @@
       <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -50,7 +53,19 @@
       <RootEvent Name="PaneOpening" />
       <RootEvent Name="ItemInvoked" />
     </RootType>
-    <RootType FullName="MyToolkit.Controls.DataGrid" />
+    <RootType FullName="MyToolkit.Controls.DataGrid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemsSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
       <RootProperty Name="Tag" />
       <RootProperty Name="Content" />
@@ -58,7 +73,6 @@
       <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" />
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="CardSortDeskTop.MainPage" />
   </Roots.RootTypes>
 </Roots>

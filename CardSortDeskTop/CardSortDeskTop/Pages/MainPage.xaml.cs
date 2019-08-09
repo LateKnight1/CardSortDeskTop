@@ -37,10 +37,14 @@ namespace CardSortDeskTop
 
         private void NavigationView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)
         {
+            openButton.Visibility = Visibility.Visible;
+            deckBox.Visibility = Visibility.Visible;
         }
 
         private void NavigationView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
         {
+            openButton.Visibility = Visibility.Collapsed;
+            deckBox.Visibility = Visibility.Collapsed;
         }
 
         private void NavigationView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
