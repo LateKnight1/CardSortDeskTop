@@ -82,5 +82,6 @@
                     FontFamily="MV Boli"/>
             </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
+        <ListView/>
     </Grid>
 </Page>

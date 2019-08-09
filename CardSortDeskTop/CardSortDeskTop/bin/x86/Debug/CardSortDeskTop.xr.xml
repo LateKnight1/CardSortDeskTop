@@ -39,6 +39,7 @@
       <RootEvent Name="PaneOpening" />
       <RootEvent Name="ItemInvoked" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView" />
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
       <RootProperty Name="Tag" />
       <RootProperty Name="Content" />
