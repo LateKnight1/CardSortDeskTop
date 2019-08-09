@@ -11,14 +11,14 @@ namespace CardSortDeskTop
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public List<string> deckNames { get; private set; }
-        public List<Card> cardsList { get; private set; }
+        internal List<string> DeckNames { get; }
+        internal List<Card> CardsList { get; }
         public MainPage()
         {
             this.InitializeComponent();
             navView.IsPaneOpen = false;
-            deckNames = new List<string>();
-            cardsList = new List<Card>();
+            DeckNames = new List<string>();
+            CardsList = new List<Card>();
         }
 
         private void Page_Loading(FrameworkElement sender, object args)
