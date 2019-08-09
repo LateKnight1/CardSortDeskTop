@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using CardSortDeskTop.Structure;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -22,12 +23,14 @@ namespace CardSortDeskTop
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public List<string> deckNames { get; private set; }
+        internal List<string> DeckNames { get; }
+        internal List<Card> CardsList { get; }
         public MainPage()
         {
             this.InitializeComponent();
             navView.IsPaneOpen = false;
-            deckNames = new List<string>();
+            DeckNames = new List<string>();
+            CardsList = new List<Card>();
         }
 
         private void Page_Loading(FrameworkElement sender, object args)

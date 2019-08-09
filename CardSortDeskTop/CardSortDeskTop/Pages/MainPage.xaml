@@ -24,7 +24,7 @@
             Margin="40 40 25 0"
             Grid.Column="0"
             x:Name="deckBox"
-            ItemsSource="{Binding deckNames}"/>
+            ItemsSource="{Binding DeckNames}"/>
 
         <muxc:NavigationView
             IsBackButtonVisible="Collapsed"
