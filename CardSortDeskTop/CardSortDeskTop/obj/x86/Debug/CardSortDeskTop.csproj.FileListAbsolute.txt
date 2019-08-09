@@ -94,3 +94,6 @@ C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDe
 C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885526160000000.json
+C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\MyToolkit.dll
+C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\MyToolkit.Extended.dll
+C:\Users\dmcphers\Desktop\WebSite\App\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\MyToolkit.Extended.pri.xml
