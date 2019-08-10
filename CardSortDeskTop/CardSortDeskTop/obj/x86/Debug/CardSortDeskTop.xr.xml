@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="cards" />
-    <RootPropertyPathName Name="deckNames" />
+    <RootPropertyPathName Name="cardsList" />
+    <RootPropertyPathName Name="DeckNames" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
