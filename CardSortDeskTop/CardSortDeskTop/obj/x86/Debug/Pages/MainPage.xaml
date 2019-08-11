@@ -103,7 +103,8 @@
                 Content="Open Deck"
                 Background="DarkGreen"
                 HorizontalAlignment="Stretch"
-                VerticalAlignment="Stretch"/>
+                VerticalAlignment="Stretch"
+                FontFamily="MV Boli"/>
     </Grid>
 </Page>
 

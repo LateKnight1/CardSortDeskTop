@@ -27,7 +27,7 @@ namespace CardSortDeskTop.Pages
             this.InitializeComponent();
         }
 
-        private void NavView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -37,7 +37,17 @@ namespace CardSortDeskTop.Pages
 
         }
 
+        private void NavView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
+        {
+
+        }
+
         private void NavView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
+        {
+
+        }
+
+        private void Page_Loading(FrameworkElement sender, object args)
         {
 
         }

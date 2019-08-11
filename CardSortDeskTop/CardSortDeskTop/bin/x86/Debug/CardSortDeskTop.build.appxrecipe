@@ -79,6 +79,9 @@
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\AddDeck.xbf">
+      <PackagePath>Pages\AddDeck.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
     </AppxPackagedFile>

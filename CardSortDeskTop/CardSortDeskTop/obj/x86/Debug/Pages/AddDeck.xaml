@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="CardSortDeskTop.Pages.AddDeck"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -8,7 +8,7 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    Loading="Page_Loading">
+                          >
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -19,12 +19,12 @@
             <RowDefinition/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <muxc:NavigationView
+        <muxc:NavigationView x:ConnectionId='2'
             IsBackButtonVisible="Collapsed"
             IsBackEnabled="False"
-            PaneClosing="NavView_PaneClosing"
-            PaneOpening="NavView_PaneOpening"
-            ItemInvoked="NavView_ItemInvoked"
+                                             
+                                             
+                                             
             PaneDisplayMode="LeftCompact"
             Grid.RowSpan="2"
             Grid.ColumnSpan="2"
@@ -84,7 +84,7 @@
             </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
 
-        <Grid
+        <Grid x:ConnectionId='3'
             Margin="40 0 0 0"
             x:Name="formData">
             <Grid.RowDefinitions>
@@ -92,13 +92,13 @@
                 <RowDefinition Height="auto"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBox
+            <TextBox x:ConnectionId='5'
                 FontFamily="MV Boli"
                 Margin="15 50 25 0"
                 Header="Deck Name"
                 PlaceholderText="Enter the name of the deck"
                 x:Name="nameBox"/>
-            <ComboBox
+            <ComboBox x:ConnectionId='6'
                 Grid.Row="1"
                 HorizontalAlignment="Stretch"
                 Margin="15 25 25 0"
@@ -110,7 +110,7 @@
                 <x:String>Extra Cards</x:String>
             </ComboBox>
         </Grid>
-        <Button
+        <Button x:ConnectionId='4'
             Grid.Row="1"
             Margin="55 20 25 20"
             HorizontalAlignment="Stretch"
@@ -119,6 +119,7 @@
             Background="DarkGreen"
             FontFamily="MV Boli"
             x:Name="saveButton"
-            Click="SaveButton_Click"/>
+                                    />
     </Grid>
 </Page>
+
