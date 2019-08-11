@@ -11,7 +11,6 @@ C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDesk
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.build.appxrecipe
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\System.Runtime.dll
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\CardSortDeskTop.csprojAssemblyReference.cache
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\App.g.i.cs
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\App.g.cs
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\MainPage.g.i.cs
