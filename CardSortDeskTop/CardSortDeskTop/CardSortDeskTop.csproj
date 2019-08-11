@@ -122,6 +122,7 @@
     <Compile Include="Pages\AddDeck.xaml.cs">
       <DependentUpon>AddDeck.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NavigationModule.cs" />
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

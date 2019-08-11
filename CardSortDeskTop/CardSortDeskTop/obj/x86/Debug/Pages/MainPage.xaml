@@ -25,13 +25,9 @@
             Grid.Column="0"
             x:Name="deckBox"
             ItemsSource="{Binding DeckNames}"/>
-
         <muxc:NavigationView x:ConnectionId='3'
             IsBackButtonVisible="Collapsed"
             IsBackEnabled="False"
-                                                    
-                                                    
-                                                    
             PaneDisplayMode="LeftCompact"
             Grid.RowSpan="2"
             Grid.ColumnSpan="2"
@@ -94,17 +90,15 @@
             Grid.Column="1"
             Margin="15 40 25 0"
             x:Name="cardBox"
-            ItemsSource="{Binding cardsList}"/>
+            ItemsSource="{Binding cards}"/>
         <Button x:ConnectionId='5' Grid.Column="0"
                 Grid.Row="1"
                 x:Name="openButton"
-                                        
                 Margin="40 20 15 20"
                 Content="Open Deck"
                 Background="DarkGreen"
                 HorizontalAlignment="Stretch"
-                VerticalAlignment="Stretch"
-                FontFamily="MV Boli"/>
+                VerticalAlignment="Stretch"/>
     </Grid>
 </Page>
 
