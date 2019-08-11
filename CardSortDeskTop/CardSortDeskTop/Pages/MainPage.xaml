@@ -94,7 +94,7 @@
             Grid.Column="1"
             Margin="15 40 25 0"
             x:Name="cardBox"
-            ItemsSource="{Binding cards}"/>
+            ItemsSource="{Binding cardsList}"/>
         <Button Grid.Column="0"
                 Grid.Row="1"
                 x:Name="openButton"
@@ -103,6 +103,7 @@
                 Content="Open Deck"
                 Background="DarkGreen"
                 HorizontalAlignment="Stretch"
-                VerticalAlignment="Stretch"/>
+                VerticalAlignment="Stretch"
+                FontFamily="MV Boli"/>
     </Grid>
 </Page>
