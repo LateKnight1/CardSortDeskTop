@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-11T00:21:34.122</Modified>
+      <Modified>2019-08-11T01:19:56.615</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.exe">
       <PackagePath>entrypoint\CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-08-11T00:21:32.615</Modified>
+      <Modified>2019-08-11T01:19:55.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\.nuget\packages\mytoolkit\2.5.16\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll">
       <PackagePath>MyToolkit.dll</PackagePath>
@@ -94,23 +94,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.xr.xml">
       <PackagePath>CardSortDeskTop.xr.xml</PackagePath>
-      <Modified>2019-08-11T00:21:32.171</Modified>
+      <Modified>2019-08-11T01:11:09.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2019-08-11T00:21:32.212</Modified>
+      <Modified>2019-08-11T01:19:55.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-11T00:21:32.213</Modified>
+      <Modified>2019-08-11T01:19:55.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\AddDeck.xbf">
       <PackagePath>Pages\AddDeck.xbf</PackagePath>
-      <Modified>2019-08-11T00:21:32.214</Modified>
+      <Modified>2019-08-11T01:19:55.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2019-08-11T00:21:32.215</Modified>
+      <Modified>2019-08-11T01:19:55.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -130,11 +130,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-08-11T00:21:33.147</Modified>
+      <Modified>2019-08-11T01:11:09.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\CardSortDeskTop.exe">
       <PackagePath>CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-08-11T00:21:34.106</Modified>
+      <Modified>2019-08-11T01:19:56.609</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

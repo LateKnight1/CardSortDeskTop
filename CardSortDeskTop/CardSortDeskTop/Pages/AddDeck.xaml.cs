@@ -25,6 +25,7 @@ namespace CardSortDeskTop.Pages
         public AddDeck()
         {
             this.InitializeComponent();
+            navView.IsPaneOpen = false;
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
@@ -34,17 +35,20 @@ namespace CardSortDeskTop.Pages
 
         private void NavView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)
         {
-
+            formData.Visibility = Visibility.Visible;
+            saveButton.Visibility = Visibility.Visible;
         }
 
         private void NavView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
         {
-
+            formData.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Collapsed;
         }
 
         private void NavView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
         {
-
+            string pageTag = args.InvokedItemContainer.Tag.ToString();
+            NavigationModule.NavigateTo(pageTag, Frame);
         }
 
         private void Page_Loading(FrameworkElement sender, object args)

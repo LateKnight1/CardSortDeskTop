@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
+using CardSortDeskTop.Pages;
 
 namespace CardSortDeskTop
 {
@@ -15,6 +16,9 @@ namespace CardSortDeskTop
             {
                 case "home":
                     frame.Navigate(typeof(MainPage));
+                    return;
+                case "addDeck":
+                    frame.Navigate(typeof(AddDeck));
                     return;
             }
         }

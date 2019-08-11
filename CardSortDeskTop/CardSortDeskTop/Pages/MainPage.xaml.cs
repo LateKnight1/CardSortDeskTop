@@ -41,7 +41,8 @@ namespace CardSortDeskTop
 
         private void NavigationView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
         {
-
+            string tag = args.InvokedItemContainer.Tag.ToString();
+            NavigationModule.NavigateTo(tag, Frame);
         }
 
         private void OpenButton_Click(object sender, RoutedEventArgs e)
