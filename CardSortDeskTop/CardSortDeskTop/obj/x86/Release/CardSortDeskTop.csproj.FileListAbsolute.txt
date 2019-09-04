@@ -658,3 +658,7 @@ C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDesk
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\intermediate\SgGenerated\System.Xml.XmlSerializer.Generated.pdb
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\intermediate\System.Private.CardSortDeskTop.Generated.dll
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\CardSortDeskTop.csprojAssemblyReference.cache
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\CardSortDataTypes.dll
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in\CardSortDataTypes.dll
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\intermediate\ILTransformed\CardSortDataTypes.ildll
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\intermediate\ILTransformed\CardSortDataTypes.ilpdb

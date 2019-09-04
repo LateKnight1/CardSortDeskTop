@@ -61,7 +61,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class _MRT_
 	{
-		// Signature, RhpGetFuncEvalParameterBufferSize, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, RhpGetFuncEvalParameterBufferSize, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpGetFuncEvalParameterBufferSize")]
 		public static uint RhpGetFuncEvalParameterBufferSize()
 		{
@@ -75,7 +75,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, RhpGetFuncEvalMode, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, RhpGetFuncEvalMode, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpGetFuncEvalMode")]
 		public static uint RhpGetFuncEvalMode()
 		{
@@ -89,7 +89,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, RhpRecordDebuggeeInitiatedHandle, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, 
+		// Signature, RhpRecordDebuggeeInitiatedHandle, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpRecordDebuggeeInitiatedHandle")]
 		public static uint RhpRecordDebuggeeInitiatedHandle(void* objectHandle)
 		{
@@ -103,7 +103,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, RhpVerifyDebuggerCleanup, [fwd] [return] [EETypeRva:0x00041F3C] void__void, 
+		// Signature, RhpVerifyDebuggerCleanup, [fwd] [return] [EETypeRva:0x00041F6C] void__void, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpVerifyDebuggerCleanup")]
 		public static void RhpVerifyDebuggerCleanup()
 		{
@@ -114,7 +114,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, RhpGetCurrentThread, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, RhpGetCurrentThread, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpGetCurrentThread")]
 		public static global::System.IntPtr RhpGetCurrentThread()
 		{
@@ -128,7 +128,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, RhWaitForPendingFinalizers, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, RhWaitForPendingFinalizers, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhWaitForPendingFinalizers")]
 		public static void RhWaitForPendingFinalizers(int allowReentrantWait)
 		{
@@ -139,7 +139,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, _RhYield, [fwd] [return] [EETypeRva:0x00041980] int__int, 
+		// Signature, _RhYield, [fwd] [return] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "_RhYield")]
 		public static int _RhYield()
 		{
@@ -153,7 +153,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, RhFlushProcessWriteBuffers, [fwd] [return] [EETypeRva:0x00041F3C] void__void, 
+		// Signature, RhFlushProcessWriteBuffers, [fwd] [return] [EETypeRva:0x00041F6C] void__void, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhFlushProcessWriteBuffers")]
 		public static void RhFlushProcessWriteBuffers()
 		{
@@ -164,7 +164,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, RhCompatibleReentrantWaitAny, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr___ptr__w64 int *, 
+		// Signature, RhCompatibleReentrantWaitAny, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr___ptr__w64 int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhCompatibleReentrantWaitAny")]
 		public static int RhCompatibleReentrantWaitAny(
 					int alertable, 
@@ -187,7 +187,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, RhCallDescrWorkerNative, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, RhCallDescrWorkerNative, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhCallDescrWorkerNative")]
 		public static void RhCallDescrWorkerNative(global::System.IntPtr callDescr)
 		{
@@ -198,7 +198,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, _ecvt_s, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] double__double, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int___ptrint *, [fwd] [in] [EETypeRva:0x00041980] int___ptrint *, 
+		// Signature, _ecvt_s, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] double__double, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int___ptrint *, [fwd] [in] [EETypeRva:0x000419B0] int___ptrint *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "_ecvt_s")]
 		public static void _ecvt_s(
 					byte* buffer, 
@@ -222,7 +222,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, memmove, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, memmove, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "memmove")]
 		public static void memmove(
 					byte* dmem, 
@@ -240,7 +240,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, memset, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, memset, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "memset")]
 		public static void memset(
 					byte* mem, 
@@ -264,7 +264,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class _
 	{
-		// Signature, CallingConventionConverter_GetStubs, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CallingConventionConverter_GetStubs, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.TypeLoader, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.Runtime.TypeLoader.CallConverterThunk", "CallingConventionConverter_GetStubs")]
 		public static void CallingConventionConverter_GetStubs(
 					out global::System.IntPtr returnVoidStub, 
@@ -299,7 +299,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_winrt_string_l1_1_0_dll
 	{
-		// Signature, WindowsCreateStringReference, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] System_Runtime_InteropServices_HSTRING_HEADER__System_Private_Interop___ptrSystem_Runtime_InteropServices__HSTRING_HEADER__System_Private_Interop *, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, 
+		// Signature, WindowsCreateStringReference, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] System_Runtime_InteropServices_HSTRING_HEADER__System_Private_Interop___ptrSystem_Runtime_InteropServices__HSTRING_HEADER__System_Private_Interop *, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore", "WindowsCreateStringReference")]
 		public static int WindowsCreateStringReference(
 					char* sourceString, 
@@ -328,7 +328,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_errorhandling_l1_1_0_dll
 	{
-		// Signature, GetLastError, [fwd] [return] [EETypeRva:0x00041980] int__int, 
+		// Signature, GetLastError, [fwd] [return] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetLastError")]
 		public static int GetLastError()
 		{
@@ -342,7 +342,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, SetLastError, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, SetLastError, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "SetLastError")]
 		public static void SetLastError(uint dwErrCode)
 		{
@@ -359,7 +359,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_winrt_l1_1_0_dll
 	{
-		// Signature, RoInitialize, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, RoInitialize, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "RoInitialize")]
 		public static int RoInitialize(uint initType)
 		{
@@ -379,7 +379,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_localization_l1_2_0_dll
 	{
-		// Signature, IsValidLocaleName, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, 
+		// Signature, IsValidLocaleName, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "IsValidLocaleName")]
 		public static int IsValidLocaleName(char* lpLocaleName)
 		{
@@ -393,7 +393,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, ResolveLocaleName, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, ResolveLocaleName, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "ResolveLocaleName")]
 		public static int ResolveLocaleName(
 					char* lpNameToResolve, 
@@ -420,7 +420,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_winrt_robuffer_l1_1_0_dll
 	{
-		// Signature, RoGetBufferMarshaler, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_IMarshal__System_Runtime_WindowsRuntime__System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime *, 
+		// Signature, RoGetBufferMarshaler, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_IMarshal__System_Runtime_WindowsRuntime__System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Interop+mincore", "RoGetBufferMarshaler")]
 		public static int RoGetBufferMarshaler(out global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime bufferMarshalerPtr)
 		{
@@ -455,7 +455,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class crypt32_dll
 	{
-		// Signature, CertDuplicateCertificateContext, [fwd] [return] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CertDuplicateCertificateContext, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertDuplicateCertificateContext")]
 		public static global::Internal.Cryptography.Pal.Native.SafeCertContextHandle__System_Security_Cryptography_X509Certificates CertDuplicateCertificateContext(global::System.IntPtr pCertContext)
@@ -478,7 +478,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CertGetCertificateContextProperty, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertContextPropId__System_Security_Cryptography_X509Certificates__CertContextPropId__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] Internal_Cryptography_Pal_Native_CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertGetCertificateContextProperty, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertContextPropId__System_Security_Cryptography_X509Certificates__CertContextPropId__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetCertificateContextProperty")]
 		public static bool CertGetCertificateContextProperty(
@@ -512,7 +512,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptQueryObject, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertQueryObjectType__System_Security_Cryptography_X509Certificates__CertQueryObjectType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_ExpectedContentTypeFlags__System_Security_Cryptography_X509Certificates__ExpectedContentTypeFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_ExpectedFormatTypeFlags__System_Security_Cryptography_X509Certificates__ExpectedFormatTypeFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_ContentType__System_Security_Cryptography_X509Certificates__ContentType__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_FormatType__System_Security_Cryptography_X509Certificates__FormatType__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, 
+		// Signature, CryptQueryObject, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertQueryObjectType__System_Security_Cryptography_X509Certificates__CertQueryObjectType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_ExpectedContentTypeFlags__System_Security_Cryptography_X509Certificates__ExpectedContentTypeFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_ExpectedFormatTypeFlags__System_Security_Cryptography_X509Certificates__ExpectedFormatTypeFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_ContentType__System_Security_Cryptography_X509Certificates__ContentType__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_FormatType__System_Security_Cryptography_X509Certificates__FormatType__System_Security_Cryptography_X509Certificates, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptQueryObject")]
 		public static bool CryptQueryObject(
@@ -578,7 +578,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertDuplicateCertificateContextWithKeyContainerDeletion, [fwd] [return] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandleWithKeyContainerDeletion__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CertDuplicateCertificateContextWithKeyContainerDeletion, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandleWithKeyContainerDeletion__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertDuplicateCertificateContextWithKeyContainerDeletion")]
 		public static global::Internal.Cryptography.Pal.Native.SafeCertContextHandleWithKeyContainerDeletion__System_Security_Cryptography_X509Certificates CertDuplicateCertificateContextWithKeyContainerDeletion(global::System.IntPtr pCertContext)
@@ -601,7 +601,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CertFreeCertificateContext, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CertFreeCertificateContext, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertFreeCertificateContext")]
 		public static bool CertFreeCertificateContext(global::System.IntPtr pCertContext)
@@ -618,7 +618,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptMsgGetParam, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CryptMessageParameterType__System_Security_Cryptography_X509Certificates__CryptMessageParameterType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptMsgGetParam, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CryptMessageParameterType__System_Security_Cryptography_X509Certificates__CryptMessageParameterType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptMsgGetParam")]
 		public static bool CryptMsgGetParam(
@@ -654,7 +654,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptMsgGetParam__0, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CryptMessageParameterType__System_Security_Cryptography_X509Certificates__CryptMessageParameterType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptMsgGetParam__0, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CryptMessageParameterType__System_Security_Cryptography_X509Certificates__CryptMessageParameterType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptMsgGetParam")]
 		public static bool CryptMsgGetParam__0(
@@ -689,7 +689,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, PFXImportCertStore, [fwd] [return] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] Internal_Cryptography_Pal_Native_CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafePasswordHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_PfxCertStoreFlags__System_Security_Cryptography_X509Certificates__PfxCertStoreFlags__System_Security_Cryptography_X509Certificates, 
+		// Signature, PFXImportCertStore, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafePasswordHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_PfxCertStoreFlags__System_Security_Cryptography_X509Certificates__PfxCertStoreFlags__System_Security_Cryptography_X509Certificates, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "PFXImportCertStore")]
 		public static global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates PFXImportCertStore(
@@ -726,7 +726,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CryptFindOIDInfo, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Encoding__Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Encoding, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Cryptography_OidGroup__System_Security_Cryptography_Encoding__OidGroup__System_Security_Cryptography_Encoding, 
+		// Signature, CryptFindOIDInfo, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Encoding__Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Encoding, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_OidGroup__System_Security_Cryptography_Encoding__OidGroup__System_Security_Cryptography_Encoding, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Encoding, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Crypt32", "CryptFindOIDInfo")]
 		public static global::System.IntPtr CryptFindOIDInfo(
 					global::_.Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Encoding dwKeyType, 
@@ -747,7 +747,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, CertGetCertificateContextProperty__0, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertContextPropId__System_Security_Cryptography_X509Certificates__CertContextPropId__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertGetCertificateContextProperty__0, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertContextPropId__System_Security_Cryptography_X509Certificates__CertContextPropId__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetCertificateContextProperty")]
 		public static bool CertGetCertificateContextProperty__0(
@@ -786,7 +786,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertCloseStore, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertCloseStore, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertCloseStore")]
 		public static bool CertCloseStore(
@@ -808,7 +808,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptMsgClose, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CryptMsgClose, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptMsgClose")]
 		public static bool CryptMsgClose(global::System.IntPtr hCryptMsg)
@@ -825,7 +825,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertFindCertificateInStore, [fwd] [return] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertFindFlags__System_Security_Cryptography_X509Certificates__CertFindFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertFindType__System_Security_Cryptography_X509Certificates__CertFindType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_CERT_CONTEXT__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_CONTEXT__System_Security_Cryptography_X509Certificates *, 
+		// Signature, CertFindCertificateInStore, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertFindFlags__System_Security_Cryptography_X509Certificates__CertFindFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertFindType__System_Security_Cryptography_X509Certificates__CertFindType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_CONTEXT__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_CONTEXT__System_Security_Cryptography_X509Certificates *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertFindCertificateInStore")]
 		public static global::Internal.Cryptography.Pal.Native.SafeCertContextHandle__System_Security_Cryptography_X509Certificates CertFindCertificateInStore(
@@ -865,7 +865,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CertEnumCertificatesInStore, [fwd] [return] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_CERT_CONTEXT__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_CONTEXT__System_Security_Cryptography_X509Certificates *, 
+		// Signature, CertEnumCertificatesInStore, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_CONTEXT__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_CONTEXT__System_Security_Cryptography_X509Certificates *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertEnumCertificatesInStore")]
 		public static global::Internal.Cryptography.Pal.Native.SafeCertContextHandle__System_Security_Cryptography_X509Certificates CertEnumCertificatesInStore(
@@ -897,7 +897,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CertGetNameString, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertNameStringType__System_Security_Cryptography_X509Certificates__CertNameStringType__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertGetNameString, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameStringType__System_Security_Cryptography_X509Certificates__CertNameStringType__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetNameString")]
 		public static int CertGetNameString(
@@ -958,7 +958,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CertGetNameString__0, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates__CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertGetNameString__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates__CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetNameString")]
 		public static int CertGetNameString__0(
@@ -1019,7 +1019,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CryptFindOIDInfo__0, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_X509Certificates__Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Cryptography_OidGroup__System_Security_Cryptography_Encoding__OidGroup__System_Security_Cryptography_Encoding, 
+		// Signature, CryptFindOIDInfo__0, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_X509Certificates__Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_OidGroup__System_Security_Cryptography_Encoding__OidGroup__System_Security_Cryptography_Encoding, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+Crypt32", "CryptFindOIDInfo")]
 		public static global::System.IntPtr CryptFindOIDInfo__0(
@@ -1041,7 +1041,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, CertNameToStr, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] Internal_Cryptography_Pal_Native_CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates__CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertNameToStr, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CRYPTOAPI_BLOB__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates__CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertNameToStr")]
 		public static int CertNameToStr(
@@ -1101,7 +1101,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CertGetCertificateChain, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_FILETIME__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__FILETIME__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] Internal_Cryptography_Pal_Native_CERT_CHAIN_PARA__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CERT_CHAIN_PARA__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertChainFlags__System_Security_Cryptography_X509Certificates__CertChainFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeX509ChainHandle__System_Security_Cryptography_X509Certificates____w64 int, 
+		// Signature, CertGetCertificateChain, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_FILETIME__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__FILETIME__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_CERT_CHAIN_PARA__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CERT_CHAIN_PARA__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertChainFlags__System_Security_Cryptography_X509Certificates__CertChainFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeX509ChainHandle__System_Security_Cryptography_X509Certificates____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetCertificateChain")]
 		public static bool CertGetCertificateChain(
@@ -1153,7 +1153,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptFormatObject, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_FormatObjectType__System_Security_Cryptography_X509Certificates__FormatObjectType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_FormatObjectStringType__System_Security_Cryptography_X509Certificates__FormatObjectStringType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptFormatObject, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_FormatObjectType__System_Security_Cryptography_X509Certificates__FormatObjectType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_FormatObjectStringType__System_Security_Cryptography_X509Certificates__FormatObjectStringType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptFormatObject")]
 		public static bool CryptFormatObject(
@@ -1222,7 +1222,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CertVerifyCertificateChainPolicy, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeX509ChainHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] Internal_Cryptography_Pal_Native_CERT_CHAIN_POLICY_PARA__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CERT_CHAIN_POLICY_PARA__System_Security_Cryptography_X509Certificates, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] Internal_Cryptography_Pal_Native_CERT_CHAIN_POLICY_STATUS__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CERT_CHAIN_POLICY_STATUS__System_Security_Cryptography_X509Certificates, 
+		// Signature, CertVerifyCertificateChainPolicy, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeX509ChainHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_CERT_CHAIN_POLICY_PARA__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CERT_CHAIN_POLICY_PARA__System_Security_Cryptography_X509Certificates, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_CERT_CHAIN_POLICY_STATUS__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CERT_CHAIN_POLICY_STATUS__System_Security_Cryptography_X509Certificates, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertVerifyCertificateChainPolicy")]
 		public static bool CertVerifyCertificateChainPolicy(
@@ -1256,7 +1256,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptFormatObject__0, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041C00] string__unsigned char *, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptFormatObject__0, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041C30] string__unsigned char *, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Encoding, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.Cng+Interop", "CryptFormatObject")]
 		public static bool CryptFormatObject__0(
 					int dwCertEncodingType, 
@@ -1327,7 +1327,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CertAddCertificateLinkToStore, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertStoreAddDisposition__System_Security_Cryptography_X509Certificates__CertStoreAddDisposition__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CertAddCertificateLinkToStore, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertStoreAddDisposition__System_Security_Cryptography_X509Certificates__CertStoreAddDisposition__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertAddCertificateLinkToStore")]
 		public static bool CertAddCertificateLinkToStore(
@@ -1361,7 +1361,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptImportPublicKeyInfoEx2, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_CERT_PUBLIC_KEY_INFO__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_PUBLIC_KEY_INFO__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeBCryptKeyHandle__System_Security_Cryptography_X509Certificates____w64 int, 
+		// Signature, CryptImportPublicKeyInfoEx2, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_PUBLIC_KEY_INFO__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_PUBLIC_KEY_INFO__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptKeyHandle__System_Security_Cryptography_X509Certificates____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptImportPublicKeyInfoEx2")]
 		public static bool CryptImportPublicKeyInfoEx2(
@@ -1396,7 +1396,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptDecodeObject, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates__CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptDecodeObject, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates__CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptDecodeObject")]
 		public static bool CryptDecodeObject(
@@ -1443,7 +1443,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertOpenStore, [fwd] [return] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertStoreFlags__System_Security_Cryptography_X509Certificates__CertStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, 
+		// Signature, CertOpenStore, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertStoreFlags__System_Security_Cryptography_X509Certificates__CertStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertOpenStore")]
 		public static global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates CertOpenStore(
@@ -1482,7 +1482,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CertFreeCertificateChain, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CertFreeCertificateChain, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertFreeCertificateChain")]
 		public static void CertFreeCertificateChain(global::System.IntPtr pChainContext)
@@ -1496,7 +1496,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, CryptDecodeObjectPointer, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates__CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptDecodeObjectPointer, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates__CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptDecodeObjectPointer")]
 		public static bool CryptDecodeObjectPointer(
@@ -1537,7 +1537,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptFindOIDInfo__1, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Cng__Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Cryptography_OidGroup__System_Security_Cryptography_Encoding__OidGroup__System_Security_Cryptography_Encoding, 
+		// Signature, CryptFindOIDInfo__1, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Cng__Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_OidGroup__System_Security_Cryptography_Encoding__OidGroup__System_Security_Cryptography_Encoding, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Crypt32", "CryptFindOIDInfo")]
 		public static global::System.IntPtr CryptFindOIDInfo__1(
 					global::_.Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Cng dwKeyType, 
@@ -1558,7 +1558,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, CertControlStore, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertControlStoreFlags__System_Security_Cryptography_X509Certificates__CertControlStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertControlStoreType__System_Security_Cryptography_X509Certificates__CertControlStoreType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CertControlStore, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertControlStoreFlags__System_Security_Cryptography_X509Certificates__CertControlStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertControlStoreType__System_Security_Cryptography_X509Certificates__CertControlStoreType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertControlStore")]
 		public static bool CertControlStore(
@@ -1588,7 +1588,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertFindExtension, [fwd] [return] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_CERT_EXTENSION__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_EXTENSION__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x00041C00] string__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_CERT_EXTENSION__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_EXTENSION__System_Security_Cryptography_X509Certificates *, 
+		// Signature, CertFindExtension, [fwd] [return] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_EXTENSION__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_EXTENSION__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x00041C30] string__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_EXTENSION__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_EXTENSION__System_Security_Cryptography_X509Certificates *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertFindExtension")]
 		public static global::Internal_Cryptography_Pal_Native.CERT_EXTENSION__System_Security_Cryptography_X509Certificates* CertFindExtension(
@@ -1622,7 +1622,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CertGetValidUsages, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertGetValidUsages, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetValidUsages")]
 		public static bool CertGetValidUsages(
@@ -1660,7 +1660,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertGetIntendedKeyUsage, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_CERT_INFO__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_INFO__System_Security_Cryptography_X509Certificates *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] System_Security_Cryptography_X509Certificates_X509KeyUsageFlags__System_Security_Cryptography_X509Certificates__X509KeyUsageFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CertGetIntendedKeyUsage, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_INFO__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_INFO__System_Security_Cryptography_X509Certificates *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] System_Security_Cryptography_X509Certificates_X509KeyUsageFlags__System_Security_Cryptography_X509Certificates__X509KeyUsageFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetIntendedKeyUsage")]
 		public static bool CertGetIntendedKeyUsage(
@@ -1689,7 +1689,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertVerifyTimeValidity, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] Internal_Cryptography_Pal_Native_FILETIME__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__FILETIME__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] Internal_Cryptography_Pal_Native_CERT_INFO__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_INFO__System_Security_Cryptography_X509Certificates *, 
+		// Signature, CertVerifyTimeValidity, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_FILETIME__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__FILETIME__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_INFO__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_INFO__System_Security_Cryptography_X509Certificates *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertVerifyTimeValidity")]
 		public static int CertVerifyTimeValidity(
@@ -1714,7 +1714,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, CertVerifyCertificateChainPolicy__0, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeX509ChainHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_Crypt32_CERT_CHAIN_POLICY_PARA__System_Net_Security____Interop_Crypt32_CERT_CHAIN_POLICY_PARA__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_Crypt32_CERT_CHAIN_POLICY_STATUS__System_Net_Security____Interop_Crypt32_CERT_CHAIN_POLICY_STATUS__System_Net_Security, 
+		// Signature, CertVerifyCertificateChainPolicy__0, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeX509ChainHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_Crypt32_CERT_CHAIN_POLICY_PARA__System_Net_Security____Interop_Crypt32_CERT_CHAIN_POLICY_PARA__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_Crypt32_CERT_CHAIN_POLICY_STATUS__System_Net_Security____Interop_Crypt32_CERT_CHAIN_POLICY_STATUS__System_Net_Security, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Crypt32", "CertVerifyCertificateChainPolicy")]
 		public static bool CertVerifyCertificateChainPolicy__0(
 					global::System.IntPtr pszPolicyOID, 
@@ -1747,7 +1747,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CertEnumCertificatesInStore__0, [fwd] [return] [EETypeRva:0x00041980] __Interop_Crypt32_CERT_CONTEXT__System_Net_Security___ptr__Interop_Crypt32_CERT_CONTEXT__System_Net_Security *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] __Interop_Crypt32_CERT_CONTEXT__System_Net_Security___ptr__Interop_Crypt32_CERT_CONTEXT__System_Net_Security *, 
+		// Signature, CertEnumCertificatesInStore__0, [fwd] [return] [EETypeRva:0x000419B0] __Interop_Crypt32_CERT_CONTEXT__System_Net_Security___ptr__Interop_Crypt32_CERT_CONTEXT__System_Net_Security *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] __Interop_Crypt32_CERT_CONTEXT__System_Net_Security___ptr__Interop_Crypt32_CERT_CONTEXT__System_Net_Security *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Crypt32", "CertEnumCertificatesInStore")]
 		public static global::_.Interop_Crypt32_CERT_CONTEXT__System_Net_Security* CertEnumCertificatesInStore__0(
 					global::System.IntPtr hCertStore, 
@@ -1768,7 +1768,7 @@ namespace __Interop
 			return (global::_.Interop_Crypt32_CERT_CONTEXT__System_Net_Security*)unsafe___value;
 		}
 
-		// Signature, CertFreeCertificateContext__0, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CertFreeCertificateContext__0, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Crypt32", "CertFreeCertificateContext")]
 		public static bool CertFreeCertificateContext__0(global::System.IntPtr pCertContext)
 		{
@@ -1790,7 +1790,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class kernel32_dll
 	{
-		// Signature, GetCPInfoExW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] __Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages___ptr__Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages *, 
+		// Signature, GetCPInfoExW, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] __Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages___ptr__Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Text.Encoding.CodePages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetCPInfoExW")]
 		public static int GetCPInfoExW(
 					uint CodePage, 
@@ -1811,7 +1811,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FormatMessage, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, 
+		// Signature, FormatMessage, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+Kernel32", "FormatMessage")]
 		public static int FormatMessage(
@@ -1849,7 +1849,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, LocalAlloc, [fwd] [return] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Net_Primitives____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_UIntPtr____w64 unsigned int, 
+		// Signature, LocalAlloc, [fwd] [return] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Net_Primitives____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_UIntPtr____w64 unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "LocalAlloc")]
 		public static global::Microsoft.Win32.SafeHandles.SafeLocalAllocHandle__System_Net_Primitives LocalAlloc(
 					int uFlags, 
@@ -1876,7 +1876,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, LocalFree, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, LocalFree, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "LocalFree")]
 		public static global::System.IntPtr LocalFree(global::System.IntPtr handle)
 		{
@@ -1892,7 +1892,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FormatMessage__0, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, 
+		// Signature, FormatMessage__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
 		public static int FormatMessage__0(
 					int dwFlags, 
@@ -1929,7 +1929,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FormatMessage__1, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, 
+		// Signature, FormatMessage__1, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
 		public static int FormatMessage__1(
 					int dwFlags, 
@@ -1966,7 +1966,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FormatMessage__2, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, 
+		// Signature, FormatMessage__2, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("Microsoft.Win32.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
 		public static int FormatMessage__2(
 					int dwFlags, 
@@ -2003,7 +2003,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FormatMessage__3, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, 
+		// Signature, FormatMessage__3, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
 		public static int FormatMessage__3(
 					int dwFlags, 
@@ -2040,7 +2040,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, GetCurrentThread, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, GetCurrentThread, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetCurrentThread")]
 		public static global::System.IntPtr GetCurrentThread()
 		{
@@ -2054,7 +2054,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, GetCurrentProcess, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, GetCurrentProcess, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetCurrentProcess")]
 		public static global::System.IntPtr GetCurrentProcess()
 		{
@@ -2070,7 +2070,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, CloseHandle, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CloseHandle, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "CloseHandle")]
 		public static bool CloseHandle(global::System.IntPtr handle)
 		{
@@ -2086,7 +2086,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, LocalAlloc__0, [fwd] [return] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_UIntPtr____w64 unsigned int, 
+		// Signature, LocalAlloc__0, [fwd] [return] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_UIntPtr____w64 unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "LocalAlloc")]
 		public static global::Microsoft.Win32.SafeHandles.SafeLocalAllocHandle__System_Security_Principal_Windows LocalAlloc__0(
 					int uFlags, 
@@ -2113,7 +2113,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CheckTokenMembershipEx, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00040818] bool__System.Boolean, 
+		// Signature, CheckTokenMembershipEx, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00040848] bool__System.Boolean, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "CheckTokenMembershipEx")]
 		public static bool CheckTokenMembershipEx(
 					global::Microsoft.Win32.SafeHandles.SafeAccessTokenHandle__System_Security_Principal_Windows TokenHandle, 
@@ -2151,7 +2151,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, DuplicateHandle, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, DuplicateHandle, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "DuplicateHandle")]
 		public static bool DuplicateHandle(
 					global::System.IntPtr hSourceProcessHandle, 
@@ -2200,7 +2200,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, LocalFree__0, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, LocalFree__0, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "LocalFree")]
 		public static global::System.IntPtr LocalFree__0(global::System.IntPtr handle)
 		{
@@ -2216,7 +2216,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, SetFileCompletionNotificationModes, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Kernel32_FileCompletionNotificationModes__System_Net_Sockets__Interop_Kernel32_FileCompletionNotificationModes__System_Net_Sockets, 
+		// Signature, SetFileCompletionNotificationModes, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Kernel32_FileCompletionNotificationModes__System_Net_Sockets__Interop_Kernel32_FileCompletionNotificationModes__System_Net_Sockets, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "SetFileCompletionNotificationModes")]
 		public static bool SetFileCompletionNotificationModes(
 					global::System.Runtime.InteropServices.SafeHandle handle, 
@@ -2247,7 +2247,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll
 	{
-		// Signature, CoCreateInstance, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CoCreateInstance, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.StackTraceGenerator, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.StackTraceGenerator.StackTraceGenerator", "CoCreateInstance")]
 		public static int CoCreateInstance(
 					byte* rclsid, 
@@ -2281,7 +2281,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class advapi32_dll
 	{
-		// Signature, CryptAcquireContext, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] Internal_Cryptography_Pal_Native_CryptAcquireContextFlags__System_Security_Cryptography_X509Certificates__CryptAcquireContextFlags__System_Security_Cryptography_X509Certificates, 
+		// Signature, CryptAcquireContext, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CryptAcquireContextFlags__System_Security_Cryptography_X509Certificates__CryptAcquireContextFlags__System_Security_Cryptography_X509Certificates, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+cryptoapi", "CryptAcquireContext")]
 		public static bool CryptAcquireContext(
@@ -2312,7 +2312,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptGetKeyParam, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptGetKeyParam, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "CryptGetKeyParam")]
 		public static bool CryptGetKeyParam(
 					global::System.Security.Cryptography.SafeKeyHandle__System_Security_Cryptography_Csp safeKeyHandle, 
@@ -2352,7 +2352,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptGetDefaultProvider, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptGetDefaultProvider, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "CryptGetDefaultProvider")]
 		public static bool CryptGetDefaultProvider(
 					int dwProvType, 
@@ -2411,7 +2411,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CryptAcquireContext__0, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, CryptAcquireContext__0, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "CryptAcquireContext")]
 		public static bool CryptAcquireContext__0(
 					out global::System.Security.Cryptography.SafeProvHandle__System_Security_Cryptography_Csp psafeProvHandle, 
@@ -2455,7 +2455,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, _CryptGetUserKey, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, 
+		// Signature, _CryptGetUserKey, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "_CryptGetUserKey")]
 		public static bool _CryptGetUserKey(
 					global::System.Security.Cryptography.SafeProvHandle__System_Security_Cryptography_Csp safeProvHandle, 
@@ -2489,7 +2489,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptGetProvParam, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp__Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptGetProvParam, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp__Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "CryptGetProvParam")]
 		public static bool CryptGetProvParam(
 					global::System.Runtime.InteropServices.SafeHandle safeProvHandle, 
@@ -2523,7 +2523,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptDestroyKey, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, CryptDestroyKey, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "CryptDestroyKey")]
 		public static bool CryptDestroyKey(global::System.IntPtr hKey)
 		{
@@ -2539,7 +2539,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, _CryptImportKey, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00043474] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, 
+		// Signature, _CryptImportKey, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "_CryptImportKey")]
 		public static bool _CryptImportKey(
 					global::System.Security.Cryptography.SafeProvHandle__System_Security_Cryptography_Csp hProv, 
@@ -2589,7 +2589,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptSetProvParamIndirectPtr, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp__Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptSetProvParamIndirectPtr, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp__Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "CryptSetProvParamIndirectPtr")]
 		public static bool CryptSetProvParamIndirectPtr(
 					global::System.Security.Cryptography.SafeProvHandle__System_Security_Cryptography_Csp safeProvHandle, 
@@ -2621,7 +2621,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptReleaseContext, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptReleaseContext, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "CryptReleaseContext")]
 		public static bool CryptReleaseContext(
 					global::System.IntPtr safeProvHandle, 
@@ -2642,7 +2642,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, CryptSetProvParam, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp__Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, CryptSetProvParam, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp__Interop_Advapi32_CryptProvParam__System_Security_Cryptography_Csp, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "CryptSetProvParam")]
 		public static bool CryptSetProvParam(
 					global::System.Runtime.InteropServices.SafeHandle safeProvHandle, 
@@ -2671,7 +2671,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, _CryptGenKey, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, 
+		// Signature, _CryptGenKey, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeProvHandle__System_Security_Cryptography_Csp____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] System_Security_Cryptography_SafeKeyHandle__System_Security_Cryptography_Csp____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.NativeCrypto.CapiHelper+Interop", "_CryptGenKey")]
 		public static bool _CryptGenKey(
 					global::System.Security.Cryptography.SafeProvHandle__System_Security_Cryptography_Csp safeProvHandle, 
@@ -2707,7 +2707,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, RevertToSelf, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, 
+		// Signature, RevertToSelf, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "RevertToSelf")]
 		public static bool RevertToSelf()
 		{
@@ -2723,7 +2723,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, ImpersonateLoggedOnUser, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, ImpersonateLoggedOnUser, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "ImpersonateLoggedOnUser")]
 		public static bool ImpersonateLoggedOnUser(global::Microsoft.Win32.SafeHandles.SafeAccessTokenHandle__System_Security_Principal_Windows userToken)
 		{
@@ -2743,7 +2743,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, OpenThreadToken, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Principal_TokenAccessLevels__System_Security_Principal_Windows__TokenAccessLevels__System_Security_Principal_Windows, [fwd] [in] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, OpenThreadToken, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Principal_TokenAccessLevels__System_Security_Principal_Windows__TokenAccessLevels__System_Security_Principal_Windows, [fwd] [in] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "OpenThreadToken")]
 		public static bool OpenThreadToken(
 					global::System.IntPtr ThreadHandle, 
@@ -2775,7 +2775,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, OpenProcessToken, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Principal_TokenAccessLevels__System_Security_Principal_Windows__TokenAccessLevels__System_Security_Principal_Windows, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, OpenProcessToken, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Principal_TokenAccessLevels__System_Security_Principal_Windows__TokenAccessLevels__System_Security_Principal_Windows, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "OpenProcessToken")]
 		public static bool OpenProcessToken(
 					global::System.IntPtr ProcessToken, 
@@ -2805,7 +2805,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, GetTokenInformation, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, GetTokenInformation, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "GetTokenInformation")]
 		public static bool GetTokenInformation(
 					global::Microsoft.Win32.SafeHandles.SafeAccessTokenHandle__System_Security_Principal_Windows TokenHandle, 
@@ -2843,7 +2843,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, LsaNtStatusToWinError, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, LsaNtStatusToWinError, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "LsaNtStatusToWinError")]
 		public static uint LsaNtStatusToWinError(uint status)
 		{
@@ -2857,7 +2857,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, DuplicateTokenEx, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, DuplicateTokenEx, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeAccessTokenHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "DuplicateTokenEx")]
 		public static bool DuplicateTokenEx(
 					global::Microsoft.Win32.SafeHandles.SafeAccessTokenHandle__System_Security_Principal_Windows hExistingToken, 
@@ -2908,7 +2908,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, GetTokenInformation__0, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, GetTokenInformation__0, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "GetTokenInformation")]
 		public static bool GetTokenInformation__0(
 					global::System.IntPtr TokenHandle, 
@@ -2938,7 +2938,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, LsaLookupSids, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaPolicyHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, LsaLookupSids, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaPolicyHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "LsaLookupSids")]
 		public static uint LsaLookupSids(
 					global::Microsoft.Win32.SafeHandles.SafeLsaPolicyHandle__System_Security_Principal_Windows handle, 
@@ -3011,7 +3011,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, LsaLookupNames2, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaPolicyHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x000424B8] rg___Interop_UNICODE_STRING__System_Security_Principal_Windows____Interop_UNICODE_STRING__System_Security_Principal_Windows *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, LsaLookupNames2, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaPolicyHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000424E8] rg___Interop_UNICODE_STRING__System_Security_Principal_Windows____Interop_UNICODE_STRING__System_Security_Principal_Windows *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaMemoryHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "LsaLookupNames2")]
 		public static uint LsaLookupNames2(
 					global::Microsoft.Win32.SafeHandles.SafeLsaPolicyHandle__System_Security_Principal_Windows handle, 
@@ -3046,7 +3046,7 @@ namespace __Interop
 					if (names != null)
 						for (uint mcgIdx = 0; (mcgIdx < names.Length); mcgIdx++)
 						{
-							// [fwd] [in] [optional] [EETypeRva:0x00042190] __Interop_UNICODE_STRING__System_Security_Principal_Windows____Interop_UNICODE_STRING__System_Security_Principal_Windows names
+							// [fwd] [in] [optional] [EETypeRva:0x000421C0] __Interop_UNICODE_STRING__System_Security_Principal_Windows____Interop_UNICODE_STRING__System_Security_Principal_Windows names
 							global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.Marshal__SafeToUnsafe(
 												ref names[mcgIdx], 
 												out unsafe_names[mcgIdx]
@@ -3104,14 +3104,14 @@ namespace __Interop
 				if (unsafe_names != null)
 					for (uint mcgIdx_1 = 0; (mcgIdx_1 < names.Length); mcgIdx_1++)
 					{
-						// [fwd] [in] [out] [optional] [EETypeRva:0x00042190] __Interop_UNICODE_STRING__System_Security_Principal_Windows____Interop_UNICODE_STRING__System_Security_Principal_Windows names
+						// [fwd] [in] [out] [optional] [EETypeRva:0x000421C0] __Interop_UNICODE_STRING__System_Security_Principal_Windows____Interop_UNICODE_STRING__System_Security_Principal_Windows names
 						global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.Cleanup__Unsafe(ref unsafe_names[mcgIdx_1]);
 					}
 				global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_names);
 			}
 		}
 
-		// Signature, LsaOpenPolicy, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_LSA_OBJECT_ATTRIBUTES__System_Security_Principal_Windows____Interop_LSA_OBJECT_ATTRIBUTES__System_Security_Principal_Windows, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaPolicyHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, LsaOpenPolicy, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_LSA_OBJECT_ATTRIBUTES__System_Security_Principal_Windows____Interop_LSA_OBJECT_ATTRIBUTES__System_Security_Principal_Windows, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaPolicyHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "LsaOpenPolicy")]
 		public static uint LsaOpenPolicy(
 					string systemName, 
@@ -3151,7 +3151,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, LsaClose, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, LsaClose, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "LsaClose")]
 		public static int LsaClose(global::System.IntPtr handle)
 		{
@@ -3167,7 +3167,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, LsaFreeMemory, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, LsaFreeMemory, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Advapi32", "LsaFreeMemory")]
 		public static int LsaFreeMemory(global::System.IntPtr handle)
 		{
@@ -3189,7 +3189,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class ws2_32_dll
 	{
-		// Signature, WSAGetOverlappedResult, [fwd] [return] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00040818] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, 
+		// Signature, WSAGetOverlappedResult, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSAGetOverlappedResult")]
 		public static bool WSAGetOverlappedResult(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3224,7 +3224,7 @@ namespace __Interop
 			return unsafe___value != 0;
 		}
 
-		// Signature, setsockopt, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, setsockopt, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "setsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives setsockopt(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3258,7 +3258,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, setsockopt__0, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, setsockopt__0, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "setsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives setsockopt__0(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3295,7 +3295,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, getsockname, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, getsockname, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "getsockname")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives getsockname(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3331,7 +3331,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, getpeername, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, getpeername, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "getpeername")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives getpeername(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3367,7 +3367,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, WSAStartup, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] short__short, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042190] __Interop_Winsock_WSAData__System_Net_NameResolution____Interop_Winsock_WSAData__System_Net_NameResolution, 
+		// Signature, WSAStartup, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] short__short, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000421C0] __Interop_Winsock_WSAData__System_Net_NameResolution____Interop_Winsock_WSAData__System_Net_NameResolution, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSAStartup")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives WSAStartup(
 					short wVersionRequested, 
@@ -3394,7 +3394,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, select, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_Winsock_TimeValue__System_Net_Sockets____Interop_Winsock_TimeValue__System_Net_Sockets, 
+		// Signature, select, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_Winsock_TimeValue__System_Net_Sockets____Interop_Winsock_TimeValue__System_Net_Sockets, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "select")]
 		public static int select(
 					int ignoredParameter, 
@@ -3442,7 +3442,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, select__0, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A10] rg_System_IntPtr____w64 int *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, select__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, [fwd] [in] [out] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "select")]
 		public static int select__0(
 					int ignoredParameter, 
@@ -3487,7 +3487,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, ioctlsocket, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, ioctlsocket, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "ioctlsocket")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives ioctlsocket(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3517,7 +3517,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, shutdown, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, shutdown, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "shutdown")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives shutdown(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3542,7 +3542,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, setsockopt__1, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, setsockopt__1, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "setsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives setsockopt__1(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3576,7 +3576,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, recv, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, 
+		// Signature, recv, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "recv")]
 		public static int recv(
 					global::System.IntPtr socketHandle, 
@@ -3601,7 +3601,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, WSAIoctl, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, WSAIoctl, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSAIoctl")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives WSAIoctl(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3645,7 +3645,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, GetAddrInfoW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] System_Net_Sockets_AddressInfo__System_Net_NameResolution__System_Net_Sockets__AddressInfo__System_Net_NameResolution, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] System_Net_Sockets_SafeFreeAddrInfo__System_Net_NameResolution____w64 int, 
+		// Signature, GetAddrInfoW, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] System_Net_Sockets_AddressInfo__System_Net_NameResolution__System_Net_Sockets__AddressInfo__System_Net_NameResolution, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] System_Net_Sockets_SafeFreeAddrInfo__System_Net_NameResolution____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "GetAddrInfoW")]
 		public static int GetAddrInfoW(
 					string nodename, 
@@ -3690,7 +3690,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, WSASocketW, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_AddressFamily__System_Net_Primitives__AddressFamily__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketType__System_Net_Sockets__SocketType__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, WSASocketW, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_AddressFamily__System_Net_Primitives__AddressFamily__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketType__System_Net_Sockets__SocketType__System_Net_Sockets, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSASocketW")]
 		public static global::System.IntPtr WSASocketW(
 					global::System_Net_Sockets.AddressFamily__System_Net_Primitives addressFamily, 
@@ -3719,7 +3719,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, closesocket, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, closesocket, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "closesocket")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives closesocket(global::System.IntPtr socketHandle)
 		{
@@ -3735,7 +3735,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, WSASocketW__0, [fwd] [return] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_AddressFamily__System_Net_Primitives__AddressFamily__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketType__System_Net_Sockets__SocketType__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_ProtocolType__System_Net_Sockets__ProtocolType__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_Winsock_SocketConstructorFlags__System_Net_Sockets__Interop_Winsock_SocketConstructorFlags__System_Net_Sockets, 
+		// Signature, WSASocketW__0, [fwd] [return] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_AddressFamily__System_Net_Primitives__AddressFamily__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketType__System_Net_Sockets__SocketType__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_ProtocolType__System_Net_Sockets__ProtocolType__System_Net_Sockets, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Winsock_SocketConstructorFlags__System_Net_Sockets__Interop_Winsock_SocketConstructorFlags__System_Net_Sockets, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSASocketW")]
 		public static global::System.Net.Sockets.SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets WSASocketW__0(
 					global::System_Net_Sockets.AddressFamily__System_Net_Primitives addressFamily, 
@@ -3770,7 +3770,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, WSAConnect, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, WSAConnect, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSAConnect")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives WSAConnect(
 					global::System.IntPtr socketHandle, 
@@ -3807,7 +3807,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, listen, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, listen, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "listen")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives listen(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3832,7 +3832,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, bind, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, bind, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "bind")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives bind(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3865,7 +3865,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, getsockopt, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, getsockopt, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "getsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives getsockopt(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -3900,7 +3900,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, send, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, 
+		// Signature, send, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "send")]
 		public static int send(
 					global::System.IntPtr socketHandle, 
@@ -3925,7 +3925,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, freeaddrinfo, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, freeaddrinfo, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "freeaddrinfo")]
 		public static void freeaddrinfo(global::System.IntPtr info)
 		{
@@ -3938,7 +3938,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, FreeAddrInfoExW, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_Net_Sockets_AddressInfoEx__System_Net_NameResolution___ptrSystem_Net_Sockets__AddressInfoEx__System_Net_NameResolution *, 
+		// Signature, FreeAddrInfoExW, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] System_Net_Sockets_AddressInfoEx__System_Net_NameResolution___ptrSystem_Net_Sockets__AddressInfoEx__System_Net_NameResolution *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "FreeAddrInfoExW")]
 		public static void FreeAddrInfoExW(global::System_Net_Sockets.AddressInfoEx__System_Net_NameResolution* pAddrInfo)
 		{
@@ -3949,7 +3949,7 @@ namespace __Interop
 			// Return
 		}
 
-		// Signature, WSASocketW__1, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_AddressFamily__System_Net_Primitives__AddressFamily__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Internals_SocketType__System_Net_NameResolution__SocketType__System_Net_NameResolution, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, WSASocketW__1, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_AddressFamily__System_Net_Primitives__AddressFamily__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Internals_SocketType__System_Net_NameResolution__SocketType__System_Net_NameResolution, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSASocketW")]
 		public static global::System.IntPtr WSASocketW__1(
 					global::System_Net_Sockets.AddressFamily__System_Net_Primitives addressFamily, 
@@ -3978,7 +3978,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, closesocket__0, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, closesocket__0, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "closesocket")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives closesocket__0(global::System.IntPtr socketHandle)
 		{
@@ -3994,7 +3994,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, gethostname, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, gethostname, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "gethostname")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives gethostname(
 					global::System.Text.StringBuilder hostName, 
@@ -4039,7 +4039,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, getsockopt__0, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_Winsock_Linger__System_Net_Sockets____Interop_Winsock_Linger__System_Net_Sockets, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, getsockopt__0, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_Winsock_Linger__System_Net_Sockets____Interop_Winsock_Linger__System_Net_Sockets, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "getsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives getsockopt__0(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -4074,7 +4074,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, getsockopt__1, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_Winsock_IPMulticastRequest__System_Net_Sockets____Interop_Winsock_IPMulticastRequest__System_Net_Sockets, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, getsockopt__1, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_Winsock_IPMulticastRequest__System_Net_Sockets____Interop_Winsock_IPMulticastRequest__System_Net_Sockets, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "getsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives getsockopt__1(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -4109,7 +4109,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, getsockopt__2, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042190] __Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets____Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, getsockopt__2, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000421C0] __Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets____Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "getsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives getsockopt__2(
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
@@ -4149,7 +4149,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, ioctlsocket__0, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, ioctlsocket__0, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "ioctlsocket")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives ioctlsocket__0(
 					global::System.IntPtr handle, 
@@ -4175,7 +4175,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, setsockopt__2, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_Winsock_Linger__System_Net_Sockets____Interop_Winsock_Linger__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, setsockopt__2, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionLevel__System_Net_Sockets__SocketOptionLevel__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketOptionName__System_Net_Sockets__SocketOptionName__System_Net_Sockets, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_Winsock_Linger__System_Net_Sockets____Interop_Winsock_Linger__System_Net_Sockets, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "setsockopt")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives setsockopt__2(
 					global::System.IntPtr handle, 
@@ -4205,7 +4205,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, accept, [fwd] [return] [EETypeRva:0x00043474] System_Net_Sockets_SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+		// Signature, accept, [fwd] [return] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "accept")]
 		public static global::System.Net.Sockets.SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets accept(
 					global::System.IntPtr socketHandle, 
@@ -4243,7 +4243,7 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, GetAddrInfoExW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] System_Net_Sockets_AddressInfoEx__System_Net_NameResolution__System_Net_Sockets__AddressInfoEx__System_Net_NameResolution, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Net_Sockets_AddressInfoEx__System_Net_NameResolution___ptrSystem_Net_Sockets__AddressInfoEx__System_Net_NameResolution *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] System_Threading_NativeOverlapped__System_Private_CoreLib__System_Threading__NativeOverlapped__System_Private_CoreLib, [fwd] [in] [EETypeRva:0x00041E78] Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution____Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, GetAddrInfoExW, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] System_Net_Sockets_AddressInfoEx__System_Net_NameResolution__System_Net_Sockets__AddressInfoEx__System_Net_NameResolution, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Net_Sockets_AddressInfoEx__System_Net_NameResolution___ptrSystem_Net_Sockets__AddressInfoEx__System_Net_NameResolution *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] System_Threading_NativeOverlapped__System_Private_CoreLib__System_Threading__NativeOverlapped__System_Private_CoreLib, [fwd] [in] [EETypeRva:0x00041EA8] Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution____Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "GetAddrInfoExW")]
 		public static int GetAddrInfoExW(
 					string pName, 
@@ -4312,7 +4312,7 @@ namespace __Interop
 			}
 		}
 
-		// Signature, WSARecv, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_Net_Sockets_WSABuffer__System_Net_Sockets___ptrSystem_Net_Sockets__WSABuffer__System_Net_Sockets *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00041980] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, WSARecv, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_Net_Sockets_WSABuffer__System_Net_Sockets___ptrSystem_Net_Sockets__WSABuffer__System_Net_Sockets *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSARecv")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives WSARecv(
 					global::System.IntPtr socketHandle, 
@@ -4347,7 +4347,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, WSASend, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_Net_Sockets_WSABuffer__System_Net_Sockets___ptrSystem_Net_Sockets__WSABuffer__System_Net_Sockets *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, [fwd] [in] [EETypeRva:0x00041980] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, WSASend, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_Net_Sockets_WSABuffer__System_Net_Sockets___ptrSystem_Net_Sockets__WSABuffer__System_Net_Sockets *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_SocketFlags__System_Net_Sockets__SocketFlags__System_Net_Sockets, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "WSASend")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives WSASend(
 					global::System.IntPtr socketHandle, 
@@ -4381,7 +4381,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, GetNameInfoW, [fwd] [return] [EETypeRva:0x00042D30] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x00041CC4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, GetNameInfoW, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Winsock", "GetNameInfoW")]
 		public static global::System_Net_Sockets.SocketError__System_Net_Primitives GetNameInfoW(
 					byte[] sa, 
@@ -4465,7 +4465,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class OleAut32
 	{
-		// Signature, SysFreeString, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, SysFreeString, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.StackTraceGenerator, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.LightweightInterop.MarshalExtensions", "SysFreeString")]
 		public static void SysFreeString(global::System.IntPtr bstr)
 		{
@@ -4482,7 +4482,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class ncrypt_dll
 	{
-		// Signature, NCryptOpenKey, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Cryptography_CngKeyOpenOptions__System_Security_Cryptography_Cng__CngKeyOpenOptions__System_Security_Cryptography_Cng, 
+		// Signature, NCryptOpenKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_CngKeyOpenOptions__System_Security_Cryptography_Cng__CngKeyOpenOptions__System_Security_Cryptography_Cng, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptOpenKey")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptOpenKey(
 					global::Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle__System_Security_Cryptography_Cng hProvider, 
@@ -4523,7 +4523,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptDeleteKey, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, NCryptDeleteKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptDeleteKey")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptDeleteKey(
 					global::Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle__System_Security_Cryptography_Cng hKey, 
@@ -4546,7 +4546,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptOpenStorageProvider, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, NCryptOpenStorageProvider, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptOpenStorageProvider")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptOpenStorageProvider(
 					out global::Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle__System_Security_Cryptography_Cng phProvider, 
@@ -4579,7 +4579,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptImportKey, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, NCryptImportKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptImportKey")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptImportKey(
 					global::Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle__System_Security_Cryptography_Cng hProvider, 
@@ -4632,7 +4632,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptGetProperty, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [out] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Cryptography_CngPropertyOptions__System_Security_Cryptography_Cng__CngPropertyOptions__System_Security_Cryptography_Cng, 
+		// Signature, NCryptGetProperty, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [out] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_CngPropertyOptions__System_Security_Cryptography_Cng__CngPropertyOptions__System_Security_Cryptography_Cng, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptGetProperty")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptGetProperty(
 					global::Microsoft.Win32.SafeHandles.SafeNCryptHandle__System_Security_Cryptography_Cng hObject, 
@@ -4671,7 +4671,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptFreeObject, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, NCryptFreeObject, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptFreeObject")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptFreeObject(global::System.IntPtr hObject)
 		{
@@ -4685,7 +4685,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptCreatePersistedKey, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Cryptography_CngKeyCreationOptions__System_Security_Cryptography_Cng__CngKeyCreationOptions__System_Security_Cryptography_Cng, 
+		// Signature, NCryptCreatePersistedKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_CngKeyCreationOptions__System_Security_Cryptography_Cng__CngKeyCreationOptions__System_Security_Cryptography_Cng, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptCreatePersistedKey")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptCreatePersistedKey(
 					global::Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle__System_Security_Cryptography_Cng hProvider, 
@@ -4733,7 +4733,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptFinalizeKey, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, NCryptFinalizeKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptFinalizeKey")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptFinalizeKey(
 					global::Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle__System_Security_Cryptography_Cng hKey, 
@@ -4756,7 +4756,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, NCryptSetProperty, [fwd] [return] [EETypeRva:0x00042D30] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeNCryptHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Security_Cryptography_CngPropertyOptions__System_Security_Cryptography_Cng__CngPropertyOptions__System_Security_Cryptography_Cng, 
+		// Signature, NCryptSetProperty, [fwd] [return] [EETypeRva:0x00042D60] __Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng__Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeNCryptHandle__System_Security_Cryptography_Cng____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_CngPropertyOptions__System_Security_Cryptography_Cng__CngPropertyOptions__System_Security_Cryptography_Cng, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NCrypt", "NCryptSetProperty")]
 		public static global::_.Interop_NCrypt_ErrorCode__System_Security_Cryptography_Cng NCryptSetProperty(
 					global::Microsoft.Win32.SafeHandles.SafeNCryptHandle__System_Security_Cryptography_Cng hObject, 
@@ -4796,7 +4796,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class BCrypt_dll
 	{
-		// Signature, BCryptExportKey, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeBCryptKeyHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, BCryptExportKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptKeyHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+BCrypt", "BCryptExportKey")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates BCryptExportKey(
@@ -4844,7 +4844,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptGetProperty, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeBCryptHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, BCryptGetProperty, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+BCrypt", "BCryptGetProperty")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates BCryptGetProperty(
@@ -4884,7 +4884,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptDestroyKey, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, BCryptDestroyKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+BCrypt", "BCryptDestroyKey")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates BCryptDestroyKey(global::System.IntPtr hKey)
@@ -4899,7 +4899,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptGenRandom, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] byte__unsigned char, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, BCryptGenRandom, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] byte__unsigned char, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+BCrypt", "BCryptGenRandom")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptGenRandom(
 					global::System.IntPtr hAlgorithm, 
@@ -4925,7 +4925,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptCreateHash, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeBCryptAlgorithmHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeBCryptHashHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_BCrypt_BCryptCreateHashFlags__System_Security_Cryptography_Algorithms__Interop_BCrypt_BCryptCreateHashFlags__System_Security_Cryptography_Algorithms, 
+		// Signature, BCryptCreateHash, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptAlgorithmHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptHashHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_BCrypt_BCryptCreateHashFlags__System_Security_Cryptography_Algorithms__Interop_BCrypt_BCryptCreateHashFlags__System_Security_Cryptography_Algorithms, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+BCrypt", "BCryptCreateHash")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptCreateHash(
 					global::Microsoft.Win32.SafeHandles.SafeBCryptAlgorithmHandle__System_Security_Cryptography_Algorithms hAlgorithm, 
@@ -4971,7 +4971,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptGetProperty__0, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeBCryptHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, BCryptGetProperty__0, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+BCrypt", "BCryptGetProperty")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptGetProperty__0(
 					global::Microsoft.Win32.SafeHandles.SafeBCryptHandle__System_Security_Cryptography_Algorithms hObject, 
@@ -5010,7 +5010,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptOpenAlgorithmProvider, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeBCryptAlgorithmHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00042D30] __Interop_BCrypt_BCryptOpenAlgorithmProviderFlags__System_Security_Cryptography_Algorithms__Interop_BCrypt_BCryptOpenAlgorithmProviderFlags__System_Security_Cryptography_Algorithms, 
+		// Signature, BCryptOpenAlgorithmProvider, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptAlgorithmHandle__System_Security_Cryptography_Algorithms____w64 int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x00042D60] __Interop_BCrypt_BCryptOpenAlgorithmProviderFlags__System_Security_Cryptography_Algorithms__Interop_BCrypt_BCryptOpenAlgorithmProviderFlags__System_Security_Cryptography_Algorithms, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+BCrypt", "BCryptOpenAlgorithmProvider")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptOpenAlgorithmProvider(
 					out global::Microsoft.Win32.SafeHandles.SafeBCryptAlgorithmHandle__System_Security_Cryptography_Algorithms phAlgorithm, 
@@ -5050,7 +5050,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptCloseAlgorithmProvider, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+		// Signature, BCryptCloseAlgorithmProvider, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+BCrypt", "BCryptCloseAlgorithmProvider")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptCloseAlgorithmProvider(
 					global::System.IntPtr hAlgorithm, 
@@ -5069,7 +5069,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptDestroyHash, [fwd] [return] [EETypeRva:0x00042D30] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, BCryptDestroyHash, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+BCrypt", "BCryptDestroyHash")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptDestroyHash(global::System.IntPtr hHash)
 		{
@@ -5089,7 +5089,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class iphlpapi_dll
 	{
-		// Signature, GetNetworkParams, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Net_Primitives____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, GetNetworkParams, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Net_Primitives____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+IpHlpApi", "GetNetworkParams")]
 		public static uint GetNetworkParams(
 					global::Microsoft.Win32.SafeHandles.SafeLocalAllocHandle__System_Net_Primitives pFixedInfo, 
@@ -5121,7 +5121,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class sspicli_dll
 	{
-		// Signature, LsaGetLogonSessionData, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_LUID__System_Security_Principal_Windows____Interop_LUID__System_Security_Principal_Windows, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] Microsoft_Win32_SafeHandles_SafeLsaReturnBufferHandle__System_Security_Principal_Windows____w64 int, 
+		// Signature, LsaGetLogonSessionData, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_LUID__System_Security_Principal_Windows____Interop_LUID__System_Security_Principal_Windows, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLsaReturnBufferHandle__System_Security_Principal_Windows____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "LsaGetLogonSessionData")]
 		public static int LsaGetLogonSessionData(
 					ref global::_.Interop_LUID__System_Security_Principal_Windows LogonId, 
@@ -5163,7 +5163,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, LsaFreeReturnBuffer, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, LsaFreeReturnBuffer, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "LsaFreeReturnBuffer")]
 		public static int LsaFreeReturnBuffer(global::System.IntPtr handle)
 		{
@@ -5179,7 +5179,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, EncryptMessage, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		// Signature, EncryptMessage, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "EncryptMessage")]
 		public static int EncryptMessage(
 					ref global::_.Interop_SspiCli_CredHandle__System_Net_Security contextHandle, 
@@ -5208,7 +5208,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, DecryptMessage, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] uint___ptrunsigned int *, 
+		// Signature, DecryptMessage, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint___ptrunsigned int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "DecryptMessage")]
 		public static int DecryptMessage(
 					ref global::_.Interop_SspiCli_CredHandle__System_Net_Security contextHandle, 
@@ -5237,7 +5237,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, EnumerateSecurityPackagesW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043474] System_Net_Security_SafeFreeContextBuffer_SECURITY__System_Net_Security____w64 int, 
+		// Signature, EnumerateSecurityPackagesW, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] System_Net_Security_SafeFreeContextBuffer_SECURITY__System_Net_Security____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "EnumerateSecurityPackagesW")]
 		public static int EnumerateSecurityPackagesW(
 					out int pkgnum, 
@@ -5268,7 +5268,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, QueryContextAttributesW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x00042D30] __Interop_SspiCli_ContextAttribute__System_Net_Security__Interop_SspiCli_ContextAttribute__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, 
+		// Signature, QueryContextAttributesW, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x00042D60] __Interop_SspiCli_ContextAttribute__System_Net_Security__Interop_SspiCli_ContextAttribute__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "QueryContextAttributesW")]
 		public static int QueryContextAttributesW(
 					ref global::_.Interop_SspiCli_CredHandle__System_Net_Security contextHandle, 
@@ -5294,7 +5294,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, ApplyControlToken, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, 
+		// Signature, ApplyControlToken, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "ApplyControlToken")]
 		public static int ApplyControlToken(
 					void* inContextPtr, 
@@ -5318,7 +5318,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FreeContextBuffer, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		// Signature, FreeContextBuffer, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "FreeContextBuffer")]
 		public static int FreeContextBuffer(global::System.IntPtr contextBuffer)
 		{
@@ -5334,7 +5334,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, AcceptSecurityContext, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] __Interop_SspiCli_SecBufferDesc__System_Net_Security___ptr__Interop_SspiCli_SecBufferDesc__System_Net_Security *, [fwd] [in] [EETypeRva:0x00042D30] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [in] [EETypeRva:0x00042D30] __Interop_SspiCli_Endianness__System_Net_Security__Interop_SspiCli_Endianness__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] long____int64, 
+		// Signature, AcceptSecurityContext, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] __Interop_SspiCli_SecBufferDesc__System_Net_Security___ptr__Interop_SspiCli_SecBufferDesc__System_Net_Security *, [fwd] [in] [EETypeRva:0x00042D60] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [in] [EETypeRva:0x00042D60] __Interop_SspiCli_Endianness__System_Net_Security__Interop_SspiCli_Endianness__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] long____int64, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "AcceptSecurityContext")]
 		public static int AcceptSecurityContext(
 					ref global::_.Interop_SspiCli_CredHandle__System_Net_Security credentialHandle, 
@@ -5376,7 +5376,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, DeleteSecurityContext, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, 
+		// Signature, DeleteSecurityContext, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "DeleteSecurityContext")]
 		public static int DeleteSecurityContext(ref global::_.Interop_SspiCli_CredHandle__System_Net_Security handlePtr)
 		{
@@ -5395,7 +5395,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, InitializeSecurityContextW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00042D30] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] __Interop_SspiCli_Endianness__System_Net_Security__Interop_SspiCli_Endianness__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] __Interop_SspiCli_SecBufferDesc__System_Net_Security___ptr__Interop_SspiCli_SecBufferDesc__System_Net_Security *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] long____int64, 
+		// Signature, InitializeSecurityContextW, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00042D60] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_SspiCli_Endianness__System_Net_Security__Interop_SspiCli_Endianness__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] __Interop_SspiCli_SecBufferDesc__System_Net_Security___ptr__Interop_SspiCli_SecBufferDesc__System_Net_Security *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_SecBufferDesc__System_Net_Security____Interop_SspiCli_SecBufferDesc__System_Net_Security, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] __Interop_SspiCli_ContextFlags__System_Net_Security__Interop_SspiCli_ContextFlags__System_Net_Security, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] long____int64, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "InitializeSecurityContextW")]
 		public static int InitializeSecurityContextW(
 					ref global::_.Interop_SspiCli_CredHandle__System_Net_Security credentialHandle, 
@@ -5443,7 +5443,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, AcquireCredentialsHandleW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_SCHANNEL_CRED__System_Net_Security____Interop_SspiCli_SCHANNEL_CRED__System_Net_Security, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] long____int64, 
+		// Signature, AcquireCredentialsHandleW, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_SCHANNEL_CRED__System_Net_Security____Interop_SspiCli_SCHANNEL_CRED__System_Net_Security, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] long____int64, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "AcquireCredentialsHandleW")]
 		public static int AcquireCredentialsHandleW(
 					string principal, 
@@ -5493,7 +5493,7 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FreeCredentialsHandle, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, 
+		// Signature, FreeCredentialsHandle, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] __Interop_SspiCli_CredHandle__System_Net_Security____Interop_SspiCli_CredHandle__System_Net_Security, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Security, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+SspiCli", "FreeCredentialsHandle")]
 		public static int FreeCredentialsHandle(ref global::_.Interop_SspiCli_CredHandle__System_Net_Security handlePtr)
 		{
