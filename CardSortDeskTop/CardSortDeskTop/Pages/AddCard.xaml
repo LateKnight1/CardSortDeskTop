@@ -1,0 +1,238 @@
+﻿<Page
+    x:Class="CardSortDeskTop.Pages.AddCard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CardSortDeskTop.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loading="Page_Loading">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <muxc:NavigationView
+            IsBackButtonVisible="Collapsed"
+            IsBackEnabled="False"
+            PaneClosing="NavView_PaneClosing"
+            PaneOpening="NavView_PaneOpening"
+            ItemInvoked="NavView_ItemInvoked"
+            PaneDisplayMode="LeftCompact"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            x:Name="navView"
+            IsSettingsVisible="False"
+            FontFamily="MV Boli">
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="addDeck"
+                    Content="Add Deck"
+                    Icon="Folder"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="addCard"
+                    Content="Add Card"
+                    Icon="Document"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="remDeck"
+                    Content="Remove Deck"
+                    Icon="Cancel"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="remCard"
+                    Content="Remove Card"
+                    Icon="Delete"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="editCard"
+                    Content="Edit Card"
+                    Icon="Edit"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="transCards"
+                    Content="Transfer Cards"
+                    Icon="Remote"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="graphs"
+                    Content="Graphs"
+                    Icon="FourBars"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="search"
+                    Content="Search Cards"
+                    Icon="Find"
+                    FontFamily="MV Boli"/>
+            </muxc:NavigationView.MenuItems>
+        </muxc:NavigationView>
+        <Grid x:Name="fieldsGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="nameBox" 
+                     Grid.Row="0" 
+                     Margin="60 50 0 0" 
+                     Header="Card Name" 
+                     FontFamily="MV Boli" 
+                     FocusEngaged="NameBox_FocusEngaged"
+                     FocusDisengaged="NameBox_FocusDisengaged"/>
+            <ComboBox x:Name="deckBox"
+                      Grid.Row="1"
+                      Margin="60 15 0 0"
+                      HorizontalAlignment="Stretch"
+                      Header="Deck"
+                      FontFamily="MV Boli"
+                      FocusEngaged="NameBox_FocusEngaged"
+                      FocusDisengaged="NameBox_FocusDisengaged"/>
+            <ComboBox x:Name="typeBox"
+                      Grid.Row="2"
+                      Margin="60 15 0 0"
+                      HorizontalAlignment="Stretch"
+                      Header="Type"
+                      FontFamily="MV Boli"
+                      FocusEngaged="NameBox_FocusEngaged"
+                      FocusDisengaged="NameBox_FocusDisengaged"
+                      SelectionChanged="TypeBox_SelectionChanged">
+                <x:String>Artifact</x:String>
+                <x:String>Creature</x:String>
+                <x:String>Enchantment</x:String>
+                <x:String>Instant</x:String>
+                <x:String>Basic Land</x:String>
+                <x:String>Land</x:String>
+                <x:String>Planeswalker</x:String>
+                <x:String>Sorcery</x:String>
+            </ComboBox>
+            <ComboBox x:Name="colorBox"
+                      Grid.Row="3"
+                      Margin="60 15 0 0"
+                      HorizontalAlignment="Stretch"
+                      Header="Colors"
+                      FontFamily="MV Boli"
+                      FocusEngaged="NameBox_FocusEngaged"
+                      FocusDisengaged="NameBox_FocusDisengaged"
+                      SelectionChanged="ColorBox_SelectionChanged">
+                <CheckBox x:Name="red"
+                          Content="Red"/>
+                <CheckBox x:Name="white"
+                          Content="White"/>
+                <CheckBox x:Name="blue"
+                          Content="Blue"/>
+                <CheckBox x:Name="black"
+                          Content="Black"/>
+                <CheckBox x:Name="green"
+                          Content="Green"/>
+                <CheckBox x:Name="colorless"
+                          Content="Colorless"/>
+            </ComboBox>
+            <ComboBox
+                Grid.Row="4"
+                HorizontalAlignment="Stretch"
+                Margin="60 15 0 0"
+                x:Name="rarityBox"
+                FontFamily="MV Boli"
+                Header="Rarity">
+                <x:String>Common</x:String>
+                <x:String>Uncommon</x:String>
+                <x:String>Rare</x:String>
+                <x:String>Mythic</x:String>
+            </ComboBox>
+            <Grid Grid.Row="5" 
+                  x:Name="costsGrid"
+                  Margin="60 15 0 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <TextBox x:Name="redCost"
+                         Header="Red"
+                         InputScope="Number"
+                         Grid.Row="0"
+                         Visibility="Collapsed"
+                         FontFamily="MV Boli"/>
+                <TextBox x:Name="whiteCost"
+                         Header="White"
+                         InputScope="Number"
+                         Grid.Row="1"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                <TextBox x:Name="blueCost"
+                         Header="Blue"
+                         InputScope="Number"
+                         Grid.Row="2"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                <TextBox x:Name="blackCost"
+                         Header="Black"
+                         InputScope="Number"
+                         Grid.Row="3"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                <TextBox x:Name="greenCost"
+                         Header="Green"
+                         InputScope="Number"
+                         Grid.Row="4"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                <TextBox x:Name="colorlessCost"
+                         Header="Colorless"
+                         InputScope="Number"
+                         Grid.Row="5"
+                         FontFamily="MV Boli"
+                         Visibility="Visible"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1"
+              Margin="60 0 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="saveButton"
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Stretch"
+                    Margin="0 20 15 20"
+                    Background="Green"
+                    Content="Save Card"
+                    FontFamily="MV Boli"
+                    Click="SaveButton_Click"
+                    Grid.Column="0"/>
+            <Button x:Name="cancelButton"
+                    Grid.Column="1"
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Stretch"
+                    Margin="15 20 0 20"
+                    Background="Red"
+                    Content="Cancel"
+                    Click="CancelButton_Click"
+                    FontFamily="MV Boli"/>
+        </Grid>
+    </Grid>
+</Page>

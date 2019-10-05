@@ -1,0 +1,7 @@
+"/t:MyToolkit.WorkflowEngine.WorkflowDefinition,MyToolkit,xml"
+"/t:System.Collections.Generic.List`1[[MyToolkit.WorkflowEngine.ActivityData,MyToolkit]],System.Collections,xml"
+"/t:System.Collections.Generic.List`1[[MyToolkit.Serialization.XmlSerialization+KeyValuePair`2[[System.String,System.Runtime],[System.Object,System.Runtime]],MyToolkit]],System.Collections,xml"
+"/t:System.Collections.Generic.List`1[[System.Object,System.Runtime]],System.Collections,xml"
+"/t:System.Object,System.Runtime,xml"
+"/t:System.Collections.Generic.Dictionary`2[[System.String,System.Runtime],[System.Object,System.Runtime]],System.Collections,dcs"
+"/t:MyToolkit.Paging.MtFrameDescription,MyToolkit.Extended,dcs"

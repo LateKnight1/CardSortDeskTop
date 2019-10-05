@@ -20,8 +20,8 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
       <RootMethod Name="GetRowSpan" />
@@ -33,11 +33,11 @@
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
-      <RootProperty Name="Width" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="IsBackButtonVisible" />
@@ -50,6 +50,14 @@
       <RootEvent Name="PaneOpening" />
       <RootEvent Name="ItemInvoked" />
     </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Tag" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="FontFamily" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" />
+    <RootType FullName="CardSortDeskTop.Pages.AddCard" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
@@ -73,13 +81,6 @@
       <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="System.String" />
-    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
-      <RootProperty Name="Tag" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Icon" />
-      <RootProperty Name="FontFamily" />
-    </RootType>
-    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" />
     <RootType FullName="CardSortDeskTop.Pages.AddDeck" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />

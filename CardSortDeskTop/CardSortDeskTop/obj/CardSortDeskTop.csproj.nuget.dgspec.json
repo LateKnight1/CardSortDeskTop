@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\schlu\\Desktop\\Git Projects": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,13 +38,17 @@
       "frameworks": {
         "uap10.0.16299": {
           "dependencies": {
+            "CardSortDataTypes": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.8, )"
+              "version": "[6.2.9, )"
             },
             "Microsoft.UI.Xaml": {
               "target": "Package",
-              "version": "[2.1.190606001, )"
+              "version": "[2.2.190917002, )"
             },
             "MyToolkit.Extended": {
               "target": "Package",
