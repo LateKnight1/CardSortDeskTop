@@ -48,7 +48,7 @@
             },
             "Microsoft.UI.Xaml": {
               "target": "Package",
-              "version": "[2.2.190830001, )"
+              "version": "[2.2.190917002, )"
             },
             "MyToolkit.Extended": {
               "target": "Package",

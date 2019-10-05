@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>FF519A1052DC13E8E93F7E7AA00FABD863E2527317967241360F4491D1DA472D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>14655C54A119E8CEF1169920DF042FA15E8EC28D2369C9BF7BFC2AE517AAD56A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>de2f9166-2522-4f3c-a2cf-7532929f3a25_1.0.0.0_x86__mjfnw1jv0451c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>de2f9166-2522-4f3c-a2cf-7532929f3a25_mjfnw1jv0451c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>de2f9166-2522-4f3c-a2cf-7532929f3a25</RegisteredPackageID>
@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-04T14:58:10.040</Modified>
+      <Modified>2019-10-05T17:38:45.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\CardSortDeskTop.dll">
       <PackagePath>CardSortDeskTop.dll</PackagePath>
-      <Modified>2019-09-04T14:58:07.269</Modified>
+      <Modified>2019-10-05T17:38:43.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\CardSortDeskTop.exe">
       <PackagePath>CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-09-04T14:58:09.962</Modified>
+      <Modified>2019-10-05T17:38:45.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\CardSortDeskTop.pdb">
       <PackagePath>CardSortDeskTop.pdb</PackagePath>
-      <Modified>2019-09-04T14:58:09.949</Modified>
+      <Modified>2019-10-05T17:38:45.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -86,16 +86,16 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-09-04T14:55:46.595</Modified>
+      <Modified>2019-10-05T17:36:48.534</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\schlu\.nuget\packages\microsoft.ui.xaml\2.2.190830001\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\schlu\.nuget\packages\microsoft.ui.xaml\2.2.190917002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.2.appx">
       <Name>Microsoft.UI.Xaml.2.2</Name>
-      <Version>2.21908.30001.0</Version>
+      <Version>2.21909.17002.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.2, MinVersion = 2.21908.30001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\schlu\.nuget\packages\microsoft.ui.xaml\2.2.190830001\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.2.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.2, MinVersion = 2.21909.17002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\schlu\.nuget\packages\microsoft.ui.xaml\2.2.190917002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

@@ -212,7 +212,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -562,7 +562,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -1090,7 +1090,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -1619,7 +1619,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -2148,7 +2148,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -2676,7 +2676,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -3205,7 +3205,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -3733,7 +3733,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.2.190830001": {
+      "Microsoft.UI.Xaml/2.2.190917002": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -4444,10 +4444,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.UI.Xaml/2.2.190830001": {
-      "sha512": "XPUMEyOSAE+pYOoi9OM3QbYQerENCjC0Rh9B2WuGC3uHppjhInjxJ0PwH4fXtCCUvQsB6khC/Op9oUm3OGTQsA==",
+    "Microsoft.UI.Xaml/2.2.190917002": {
+      "sha512": "5orzxRCQUjWEyUxLUdiO/ON/SPtKWq9kxnvPJwXX2j9SQ70Am8Mxd9/mO4CTKdK+nedp6584VloWEhZYVnQp6A==",
       "type": "package",
-      "path": "microsoft.ui.xaml/2.2.190830001",
+      "path": "microsoft.ui.xaml/2.2.190917002",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -4466,7 +4466,7 @@
         "lib/uap10.0/Microsoft.UI.Xaml.xml",
         "lib/uap10.0/Microsoft.UI.Xaml/Themes/Generic.xaml",
         "license.txt",
-        "microsoft.ui.xaml.2.2.190830001.nupkg.sha512",
+        "microsoft.ui.xaml.2.2.190917002.nupkg.sha512",
         "microsoft.ui.xaml.nuspec",
         "readme.txt",
         "tools/AppX/arm/Release/Microsoft.UI.Xaml.2.2.appx",
@@ -8583,7 +8583,7 @@
     "UAP,Version=v10.0.16299": [
       "CardSortDataTypes >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
-      "Microsoft.UI.Xaml >= 2.2.190830001",
+      "Microsoft.UI.Xaml >= 2.2.190917002",
       "MyToolkit.Extended >= 2.5.16"
     ]
   },
@@ -8635,7 +8635,7 @@
           },
           "Microsoft.UI.Xaml": {
             "target": "Package",
-            "version": "[2.2.190830001, )"
+            "version": "[2.2.190917002, )"
           },
           "MyToolkit.Extended": {
             "target": "Package",

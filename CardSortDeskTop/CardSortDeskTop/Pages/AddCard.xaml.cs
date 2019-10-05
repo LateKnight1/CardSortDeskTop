@@ -30,12 +30,14 @@ namespace CardSortDeskTop.Pages
 
         private void NavView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)
         {
-
+            fieldsGrid.Visibility = Visibility.Visible;
+            saveButton.Visibility = Visibility.Visible;
         }
 
         private void NavView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
         {
-
+            fieldsGrid.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Collapsed;
         }
 
         private void NavView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
@@ -45,6 +47,36 @@ namespace CardSortDeskTop.Pages
         }
 
         private void Page_Loading(FrameworkElement sender, object args)
+        {
+
+        }
+
+        private void NameBox_FocusEngaged(Control sender, FocusEngagedEventArgs args)
+        {
+
+        }
+
+        private void NameBox_FocusDisengaged(Control sender, FocusDisengagedEventArgs args)
+        {
+
+        }
+
+        private void TypeBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ColorBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
