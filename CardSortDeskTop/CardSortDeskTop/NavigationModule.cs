@@ -26,6 +26,9 @@ namespace CardSortDeskTop
                 case "remCard":
                     frame.Navigate(typeof(RemoveCard));
                     return;
+                case "remDeck":
+                    frame.Navigate(typeof(RemoveDeck));
+                    return;
             }
         }
     }

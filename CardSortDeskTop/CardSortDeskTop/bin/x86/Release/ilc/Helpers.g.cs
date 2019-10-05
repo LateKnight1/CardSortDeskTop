@@ -1035,8 +1035,7 @@ namespace __Interop
 		internal static int StdCall__34(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Type__Impl.UnsafeType arg0, 
-					void* arg1)
+					global::System.Runtime.InteropServices.HSTRING arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -1045,7 +1044,8 @@ namespace __Interop
 		internal static int StdCall__35(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0)
+					global::System.Type__Impl.UnsafeType arg0, 
+					void* arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -3948,8 +3948,8 @@ namespace __Interop
 		[global::Internal.PreInitializedAddrOfDelegate]
 		public delegate void AddrOfTarget184(
 					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangedEventArgs a2);
+					global::Windows.UI.Xaml.Controls.TextBlock a1, 
+					global::Windows.UI.Xaml.Controls.IsTextTrimmedChangedEventArgs a2);
 
 		#endif
 
@@ -3959,7 +3959,7 @@ namespace __Interop
 		public delegate void AddrOfTarget185(
 					global::System.__ComObject a0, 
 					object a1, 
-					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs a2);
+					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangedEventArgs a2);
 
 		#endif
 
@@ -3967,6 +3967,16 @@ namespace __Interop
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
 		public delegate void AddrOfTarget186(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs a2);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate void AddrOfTarget187(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ScrollViewer a1, 
 					global::Windows.UI.Xaml.Controls.AnchorRequestedEventArgs a2);
@@ -3976,7 +3986,7 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate void AddrOfTarget187(
+		public delegate void AddrOfTarget188(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.VisualStateChangedEventArgs a2);
@@ -3986,7 +3996,7 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate void AddrOfTarget188(
+		public delegate void AddrOfTarget189(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.SplitView a1, 
 					global::Windows.UI.Xaml.Controls.SplitViewPaneClosingEventArgs a2);
@@ -3996,20 +4006,10 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate void AddrOfTarget189(
+		public delegate void AddrOfTarget190(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.SplitView a1, 
 					object a2);
-
-		#endif
-
-
-		#if false
-		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate void AddrOfTarget190(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.TextBlock a1, 
-					global::Windows.UI.Xaml.Controls.IsTextTrimmedChangedEventArgs a2);
 
 		#endif
 
