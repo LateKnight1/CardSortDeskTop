@@ -223,7 +223,7 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[49];
+            _typeNameTable = new string[50];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Windows.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -271,10 +271,11 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
             _typeNameTable[44] = "Windows.UI.Xaml.GridLength";
             _typeNameTable[45] = "Windows.UI.Xaml.PropertyPath";
             _typeNameTable[46] = "CardSortDeskTop.MainPage";
-            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[48] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[47] = "CardSortDeskTop.Pages.RemoveCard";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[49] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[49];
+            _typeTable = new global::System.Type[50];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -322,8 +323,9 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
             _typeTable[44] = typeof(global::Windows.UI.Xaml.GridLength);
             _typeTable[45] = typeof(global::Windows.UI.Xaml.PropertyPath);
             _typeTable[46] = typeof(global::CardSortDeskTop.MainPage);
-            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[48] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[47] = typeof(global::CardSortDeskTop.Pages.RemoveCard);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[49] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -370,7 +372,8 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
         private object Activate_42_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::MyToolkit.Controls.DataGridColumnBase>(); }
         private object Activate_43_Collection() { return new global::System.Collections.ObjectModel.Collection<global::MyToolkit.Controls.DataGridColumnBase>(); }
         private object Activate_46_MainPage() { return new global::CardSortDeskTop.MainPage(); }
-        private object Activate_47_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_47_RemoveCard() { return new global::CardSortDeskTop.Pages.RemoveCard(); }
+        private object Activate_48_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -402,7 +405,7 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
             var newItem = (global::MyToolkit.Controls.DataGridColumnBase)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_48_IList(object instance, object item)
+        private void VectorAdd_49_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -731,9 +734,16 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 47:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 47:   //  CardSortDeskTop.Pages.RemoveCard
+                userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_47_RemoveCard;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 48:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_47_TreeViewNode;
+                userType.Activator = Activate_48_TreeViewNode;
                 userType.AddMemberName("IsExpanded");
                 userType.AddMemberName("HasUnrealizedChildren");
                 userType.AddMemberName("Content");
@@ -745,9 +755,9 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 48:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 49:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_48_IList;
+                userType.CollectionAdd = VectorAdd_49_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;

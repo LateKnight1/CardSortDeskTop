@@ -76,6 +76,8 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Items" />
       <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="MinWidth" />
       <RootEvent Name="FocusEngaged" />
       <RootEvent Name="FocusDisengaged" />
       <RootEvent Name="SelectionChanged" />
@@ -103,5 +105,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="CardSortDeskTop.MainPage" />
+    <RootType FullName="CardSortDeskTop.Pages.RemoveCard" />
   </Roots.RootTypes>
 </Roots>

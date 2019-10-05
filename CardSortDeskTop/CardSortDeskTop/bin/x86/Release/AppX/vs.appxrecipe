@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T17:38:45.783</Modified>
+      <Modified>2019-10-05T19:53:14.890</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\CardSortDeskTop.dll">
       <PackagePath>CardSortDeskTop.dll</PackagePath>
-      <Modified>2019-10-05T17:38:43.262</Modified>
+      <Modified>2019-10-05T19:53:12.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\CardSortDeskTop.exe">
       <PackagePath>CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-10-05T17:38:45.707</Modified>
+      <Modified>2019-10-05T19:53:14.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\CardSortDeskTop.pdb">
       <PackagePath>CardSortDeskTop.pdb</PackagePath>
-      <Modified>2019-10-05T17:38:45.695</Modified>
+      <Modified>2019-10-05T19:53:14.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-05T17:36:48.534</Modified>
+      <Modified>2019-10-05T19:51:32.887</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
