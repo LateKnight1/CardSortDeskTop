@@ -672,3 +672,8 @@ C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDesk
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\RemoveDeck.g.cs
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\RemoveDeck.xaml
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\RemoveDeck.xbf
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\EditCard.g.i.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\EditCard.g.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\EditCard.xaml
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\EditCard.xbf
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\Pages\EditCard.xbf
