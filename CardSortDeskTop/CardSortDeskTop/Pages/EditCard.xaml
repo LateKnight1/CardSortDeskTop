@@ -5,10 +5,235 @@
     xmlns:local="using:CardSortDeskTop.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:grid="using:MyToolkit.Controls"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loading="Page_Loading">
 
     <Grid>
-
+        <muxc:NavigationView
+            IsBackButtonVisible="Collapsed"
+            IsBackEnabled="False"
+            PaneClosing="NavView_PaneClosing"
+            PaneOpening="NavView_PaneOpening"
+            ItemInvoked="NavView_ItemInvoked"
+            PaneDisplayMode="LeftCompact"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            x:Name="navView"
+            IsSettingsVisible="False"
+            FontFamily="MV Boli">
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="addDeck"
+                    Content="Add Deck"
+                    Icon="Folder"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="addCard"
+                    Content="Add Card"
+                    Icon="Document"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="remDeck"
+                    Content="Remove Deck"
+                    Icon="Cancel"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="remCard"
+                    Content="Remove Card"
+                    Icon="Delete"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="editCard"
+                    Content="Edit Card"
+                    Icon="Edit"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="transCards"
+                    Content="Transfer Cards"
+                    Icon="Remote"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="graphs"
+                    Content="Graphs"
+                    Icon="FourBars"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="search"
+                    Content="Search Cards"
+                    Icon="Find"
+                    FontFamily="MV Boli"/>
+            </muxc:NavigationView.MenuItems>
+        </muxc:NavigationView>
+        <Grid x:Name="mainGrid"
+              Margin="60 50 0 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <ComboBox Grid.Row="0"
+                      MinWidth="150"
+                      MaxWidth="500"
+                      FontFamily="MV Boli"
+                      Header="Deck"
+                      x:Name="deckBox"
+                      SelectionChanged="DeckBox_SelectionChanged"/>
+            <Grid x:Name="editorGrid"
+                  Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <grid:DataGrid x:Name="cardsBox"
+                               Margin="0 15 15 0"/>
+                <Grid Grid.Column="1"
+                      x:Name="fieldsGrid"
+                      Margin="15 15 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBox Name="nameBox"
+                             Grid.Row="0"
+                             FontFamily="MV Boli"
+                             Header="Name"/>
+                    <ComboBox x:Name="typeBox"
+                              Grid.Row="1"
+                              Margin="0 15 0 0"
+                              HorizontalAlignment="Stretch"
+                              FontFamily="MV Boli"
+                              Header="Type">
+                        <x:String>Artifact</x:String>
+                        <x:String>Creature</x:String>
+                        <x:String>Enchantment</x:String>
+                        <x:String>Instant</x:String>
+                        <x:String>Basic Land</x:String>
+                        <x:String>Land</x:String>
+                        <x:String>Planeswalker</x:String>
+                        <x:String>Sorcery</x:String>
+                    </ComboBox>
+                    <ComboBox x:Name="colorsBox"
+                              Grid.Row="2"
+                              Margin="0 15 0 0"
+                              HorizontalAlignment="Stretch"
+                              FontFamily="MV Boli"
+                              Header="Colors"
+                              SelectionChanged="ColorsBox_SelectionChanged">
+                        <CheckBox x:Name="red"
+                          Content="Red"/>
+                        <CheckBox x:Name="white"
+                          Content="White"/>
+                        <CheckBox x:Name="blue"
+                          Content="Blue"/>
+                        <CheckBox x:Name="black"
+                          Content="Black"/>
+                        <CheckBox x:Name="green"
+                          Content="Green"/>
+                        <CheckBox x:Name="colorless"
+                          Content="Colorless"/>
+                    </ComboBox>
+                    <ComboBox x:Name="rarityBox"
+                              Grid.Row="3"
+                              Margin="0 15 0 0"
+                              HorizontalAlignment="Stretch"
+                              FontFamily="MV Boli"
+                              Header="Rarity">
+                        <x:String>Common</x:String>
+                        <x:String>Uncommon</x:String>
+                        <x:String>Rare</x:String>
+                        <x:String>Mythic</x:String>
+                    </ComboBox>
+                    <Grid x:Name="colorCostsGrid"
+                          Grid.Row="4"
+                          Margin="0 15 0 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBox x:Name="redCost"
+                         Header="Red"
+                         InputScope="Number"
+                         Grid.Row="0"
+                         Visibility="Collapsed"
+                         FontFamily="MV Boli"/>
+                        <TextBox x:Name="whiteCost"
+                         Header="White"
+                         InputScope="Number"
+                         Grid.Row="1"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                        <TextBox x:Name="blueCost"
+                         Header="Blue"
+                         InputScope="Number"
+                         Grid.Row="2"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                        <TextBox x:Name="blackCost"
+                         Header="Black"
+                         InputScope="Number"
+                         Grid.Row="3"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                        <TextBox x:Name="greenCost"
+                         Header="Green"
+                         InputScope="Number"
+                         Grid.Row="4"
+                         FontFamily="MV Boli"
+                         Visibility="Collapsed"/>
+                        <TextBox x:Name="colorlessCost"
+                         Header="Colorless"
+                         InputScope="Number"
+                         Grid.Row="5"
+                         FontFamily="MV Boli"
+                         Visibility="Visible"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid x:Name="buttonsGrid"
+                  Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="saveButton"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"
+                        Background="Green"
+                        Margin="0 20 15 20"
+                        Content="Save"
+                        FontFamily="MV Boli"
+                        Click="SaveButton_Click"/>
+                <Button Grid.Column="1"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"
+                        x:Name="cancelButton"
+                        Background="Red"
+                        Margin="15 20 0 20"
+                        Content="Cancel"
+                        FontFamily="MV Boli"
+                        Click="CancelButton_Click"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>
