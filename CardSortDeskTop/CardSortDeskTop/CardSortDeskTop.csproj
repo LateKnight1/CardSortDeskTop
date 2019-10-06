@@ -138,6 +138,9 @@
     <Compile Include="Pages\RemoveDeck.xaml.cs">
       <DependentUpon>RemoveDeck.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\TransferCards.xaml.cs">
+      <DependentUpon>TransferCards.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -181,6 +184,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\RemoveDeck.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\TransferCards.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
