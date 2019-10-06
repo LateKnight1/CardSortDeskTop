@@ -32,6 +32,9 @@ namespace CardSortDeskTop
                 case "editCard":
                     frame.Navigate(typeof(EditCard));
                     return;
+                case "transCards":
+                    frame.Navigate(typeof(TransferCards));
+                    return;
             }
         }
     }
