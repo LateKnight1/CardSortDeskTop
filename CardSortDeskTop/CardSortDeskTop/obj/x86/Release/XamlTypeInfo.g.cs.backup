@@ -258,19 +258,19 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
             _typeNameTable[31] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[32] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[33] = "CardSortDeskTop.Pages.AddDeck";
-            _typeNameTable[34] = "CardSortDeskTop.Pages.EditCard";
-            _typeNameTable[35] = "MyToolkit.Controls.DataGrid";
-            _typeNameTable[36] = "Windows.UI.Xaml.Controls.Control";
-            _typeNameTable[37] = "MyToolkit.Collections.IObservableCollectionView";
-            _typeNameTable[38] = "MyToolkit.Controls.DataGridColumnBase";
-            _typeNameTable[39] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[40] = "Windows.UI.Xaml.Controls.SelectionMode";
-            _typeNameTable[41] = "Int32";
-            _typeNameTable[42] = "MyToolkit.Controls.DataGridColumnCollection";
-            _typeNameTable[43] = "System.Collections.ObjectModel.ObservableCollection`1<MyToolkit.Controls.DataGridColumnBase>";
-            _typeNameTable[44] = "System.Collections.ObjectModel.Collection`1<MyToolkit.Controls.DataGridColumnBase>";
-            _typeNameTable[45] = "Windows.UI.Xaml.GridLength";
-            _typeNameTable[46] = "Windows.UI.Xaml.PropertyPath";
+            _typeNameTable[34] = "MyToolkit.Controls.DataGrid";
+            _typeNameTable[35] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[36] = "MyToolkit.Collections.IObservableCollectionView";
+            _typeNameTable[37] = "MyToolkit.Controls.DataGridColumnBase";
+            _typeNameTable[38] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[39] = "Windows.UI.Xaml.Controls.SelectionMode";
+            _typeNameTable[40] = "Int32";
+            _typeNameTable[41] = "MyToolkit.Controls.DataGridColumnCollection";
+            _typeNameTable[42] = "System.Collections.ObjectModel.ObservableCollection`1<MyToolkit.Controls.DataGridColumnBase>";
+            _typeNameTable[43] = "System.Collections.ObjectModel.Collection`1<MyToolkit.Controls.DataGridColumnBase>";
+            _typeNameTable[44] = "Windows.UI.Xaml.GridLength";
+            _typeNameTable[45] = "Windows.UI.Xaml.PropertyPath";
+            _typeNameTable[46] = "CardSortDeskTop.Pages.EditCard";
             _typeNameTable[47] = "CardSortDeskTop.MainPage";
             _typeNameTable[48] = "CardSortDeskTop.Pages.RemoveCard";
             _typeNameTable[49] = "CardSortDeskTop.Pages.RemoveDeck";
@@ -312,19 +312,19 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
             _typeTable[31] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[32] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[33] = typeof(global::CardSortDeskTop.Pages.AddDeck);
-            _typeTable[34] = typeof(global::CardSortDeskTop.Pages.EditCard);
-            _typeTable[35] = typeof(global::MyToolkit.Controls.DataGrid);
-            _typeTable[36] = typeof(global::Windows.UI.Xaml.Controls.Control);
-            _typeTable[37] = typeof(global::MyToolkit.Collections.IObservableCollectionView);
-            _typeTable[38] = typeof(global::MyToolkit.Controls.DataGridColumnBase);
-            _typeTable[39] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[40] = typeof(global::Windows.UI.Xaml.Controls.SelectionMode);
-            _typeTable[41] = typeof(global::System.Int32);
-            _typeTable[42] = typeof(global::MyToolkit.Controls.DataGridColumnCollection);
-            _typeTable[43] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::MyToolkit.Controls.DataGridColumnBase>);
-            _typeTable[44] = typeof(global::System.Collections.ObjectModel.Collection<global::MyToolkit.Controls.DataGridColumnBase>);
-            _typeTable[45] = typeof(global::Windows.UI.Xaml.GridLength);
-            _typeTable[46] = typeof(global::Windows.UI.Xaml.PropertyPath);
+            _typeTable[34] = typeof(global::MyToolkit.Controls.DataGrid);
+            _typeTable[35] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[36] = typeof(global::MyToolkit.Collections.IObservableCollectionView);
+            _typeTable[37] = typeof(global::MyToolkit.Controls.DataGridColumnBase);
+            _typeTable[38] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[39] = typeof(global::Windows.UI.Xaml.Controls.SelectionMode);
+            _typeTable[40] = typeof(global::System.Int32);
+            _typeTable[41] = typeof(global::MyToolkit.Controls.DataGridColumnCollection);
+            _typeTable[42] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::MyToolkit.Controls.DataGridColumnBase>);
+            _typeTable[43] = typeof(global::System.Collections.ObjectModel.Collection<global::MyToolkit.Controls.DataGridColumnBase>);
+            _typeTable[44] = typeof(global::Windows.UI.Xaml.GridLength);
+            _typeTable[45] = typeof(global::Windows.UI.Xaml.PropertyPath);
+            _typeTable[46] = typeof(global::CardSortDeskTop.Pages.EditCard);
             _typeTable[47] = typeof(global::CardSortDeskTop.MainPage);
             _typeTable[48] = typeof(global::CardSortDeskTop.Pages.RemoveCard);
             _typeTable[49] = typeof(global::CardSortDeskTop.Pages.RemoveDeck);
@@ -371,11 +371,11 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
         private object Activate_29_NavigationViewItemSeparator() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator(); }
         private object Activate_30_AddCard() { return new global::CardSortDeskTop.Pages.AddCard(); }
         private object Activate_33_AddDeck() { return new global::CardSortDeskTop.Pages.AddDeck(); }
-        private object Activate_34_EditCard() { return new global::CardSortDeskTop.Pages.EditCard(); }
-        private object Activate_35_DataGrid() { return new global::MyToolkit.Controls.DataGrid(); }
-        private object Activate_42_DataGridColumnCollection() { return new global::MyToolkit.Controls.DataGridColumnCollection(); }
-        private object Activate_43_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::MyToolkit.Controls.DataGridColumnBase>(); }
-        private object Activate_44_Collection() { return new global::System.Collections.ObjectModel.Collection<global::MyToolkit.Controls.DataGridColumnBase>(); }
+        private object Activate_34_DataGrid() { return new global::MyToolkit.Controls.DataGrid(); }
+        private object Activate_41_DataGridColumnCollection() { return new global::MyToolkit.Controls.DataGridColumnCollection(); }
+        private object Activate_42_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::MyToolkit.Controls.DataGridColumnBase>(); }
+        private object Activate_43_Collection() { return new global::System.Collections.ObjectModel.Collection<global::MyToolkit.Controls.DataGridColumnBase>(); }
+        private object Activate_46_EditCard() { return new global::CardSortDeskTop.Pages.EditCard(); }
         private object Activate_47_MainPage() { return new global::CardSortDeskTop.MainPage(); }
         private object Activate_48_RemoveCard() { return new global::CardSortDeskTop.Pages.RemoveCard(); }
         private object Activate_49_RemoveDeck() { return new global::CardSortDeskTop.Pages.RemoveDeck(); }
@@ -393,19 +393,19 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_42_DataGridColumnCollection(object instance, object item)
+        private void VectorAdd_41_DataGridColumnCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::MyToolkit.Controls.DataGridColumnBase>)instance;
             var newItem = (global::MyToolkit.Controls.DataGridColumnBase)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_43_ObservableCollection(object instance, object item)
+        private void VectorAdd_42_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::MyToolkit.Controls.DataGridColumnBase>)instance;
             var newItem = (global::MyToolkit.Controls.DataGridColumnBase)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_44_Collection(object instance, object item)
+        private void VectorAdd_43_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::MyToolkit.Controls.DataGridColumnBase>)instance;
             var newItem = (global::MyToolkit.Controls.DataGridColumnBase)item;
@@ -649,23 +649,16 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 34:   //  CardSortDeskTop.Pages.EditCard
-                userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_34_EditCard;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 35:   //  MyToolkit.Controls.DataGrid
+            case 34:   //  MyToolkit.Controls.DataGrid
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_35_DataGrid;
-                userType.AddMemberName("ItemsSource");
+                userType.Activator = Activate_34_DataGrid;
                 userType.AddMemberName("SelectedItems");
                 userType.AddMemberName("Items");
                 userType.AddMemberName("SelectedColumn");
                 userType.AddMemberName("HeaderBackground");
                 userType.AddMemberName("SelectionMode");
                 userType.AddMemberName("SelectedItem");
+                userType.AddMemberName("ItemsSource");
                 userType.AddMemberName("DefaultOrderIndex");
                 userType.AddMemberName("RowStyle");
                 userType.AddMemberName("ItemDetailsTemplate");
@@ -677,17 +670,17 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 36:   //  Windows.UI.Xaml.Controls.Control
+            case 35:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 37:   //  MyToolkit.Collections.IObservableCollectionView
+            case 36:   //  MyToolkit.Collections.IObservableCollectionView
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 38:   //  MyToolkit.Controls.DataGridColumnBase
+            case 37:   //  MyToolkit.Controls.DataGridColumnBase
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("CanSort");
                 userType.AddMemberName("IsSelected");
@@ -699,45 +692,52 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 39:   //  Windows.UI.Xaml.Media.Brush
+            case 38:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 40:   //  Windows.UI.Xaml.Controls.SelectionMode
+            case 39:   //  Windows.UI.Xaml.Controls.SelectionMode
                 xamlType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 41:   //  Int32
+            case 40:   //  Int32
                 xamlType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  MyToolkit.Controls.DataGridColumnCollection
+            case 41:   //  MyToolkit.Controls.DataGridColumnCollection
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<MyToolkit.Controls.DataGridColumnBase>"));
-                userType.CollectionAdd = VectorAdd_42_DataGridColumnCollection;
+                userType.CollectionAdd = VectorAdd_41_DataGridColumnCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 43:   //  System.Collections.ObjectModel.ObservableCollection`1<MyToolkit.Controls.DataGridColumnBase>
+            case 42:   //  System.Collections.ObjectModel.ObservableCollection`1<MyToolkit.Controls.DataGridColumnBase>
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<MyToolkit.Controls.DataGridColumnBase>"));
-                userType.Activator = Activate_43_ObservableCollection;
-                userType.CollectionAdd = VectorAdd_43_ObservableCollection;
+                userType.Activator = Activate_42_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_42_ObservableCollection;
                 xamlType = userType;
                 break;
 
-            case 44:   //  System.Collections.ObjectModel.Collection`1<MyToolkit.Controls.DataGridColumnBase>
+            case 43:   //  System.Collections.ObjectModel.Collection`1<MyToolkit.Controls.DataGridColumnBase>
                 userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_44_Collection;
-                userType.CollectionAdd = VectorAdd_44_Collection;
+                userType.Activator = Activate_43_Collection;
+                userType.CollectionAdd = VectorAdd_43_Collection;
                 xamlType = userType;
                 break;
 
-            case 45:   //  Windows.UI.Xaml.GridLength
+            case 44:   //  Windows.UI.Xaml.GridLength
                 xamlType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 46:   //  Windows.UI.Xaml.PropertyPath
+            case 45:   //  Windows.UI.Xaml.PropertyPath
                 xamlType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 46:   //  CardSortDeskTop.Pages.EditCard
+                userType = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_46_EditCard;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
 
             case 47:   //  CardSortDeskTop.MainPage
@@ -1197,60 +1197,60 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.CompactPaneLength;
         }
-        private object get_38_DataGrid_ItemsSource(object instance)
-        {
-            var that = (global::MyToolkit.Controls.DataGrid)instance;
-            return that.ItemsSource;
-        }
-        private void set_38_DataGrid_ItemsSource(object instance, object Value)
-        {
-            var that = (global::MyToolkit.Controls.DataGrid)instance;
-            that.ItemsSource = (global::System.Object)Value;
-        }
-        private object get_39_DataGrid_SelectedItems(object instance)
+        private object get_38_DataGrid_SelectedItems(object instance)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             return that.SelectedItems;
         }
-        private object get_40_DataGrid_Items(object instance)
+        private object get_39_DataGrid_Items(object instance)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             return that.Items;
         }
-        private object get_41_DataGrid_SelectedColumn(object instance)
+        private object get_40_DataGrid_SelectedColumn(object instance)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             return that.SelectedColumn;
         }
-        private object get_42_DataGrid_HeaderBackground(object instance)
+        private object get_41_DataGrid_HeaderBackground(object instance)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             return that.HeaderBackground;
         }
-        private void set_42_DataGrid_HeaderBackground(object instance, object Value)
+        private void set_41_DataGrid_HeaderBackground(object instance, object Value)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             that.HeaderBackground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_43_DataGrid_SelectionMode(object instance)
+        private object get_42_DataGrid_SelectionMode(object instance)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             return that.SelectionMode;
         }
-        private void set_43_DataGrid_SelectionMode(object instance, object Value)
+        private void set_42_DataGrid_SelectionMode(object instance, object Value)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             that.SelectionMode = (global::Windows.UI.Xaml.Controls.SelectionMode)Value;
         }
-        private object get_44_DataGrid_SelectedItem(object instance)
+        private object get_43_DataGrid_SelectedItem(object instance)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             return that.SelectedItem;
         }
-        private void set_44_DataGrid_SelectedItem(object instance, object Value)
+        private void set_43_DataGrid_SelectedItem(object instance, object Value)
         {
             var that = (global::MyToolkit.Controls.DataGrid)instance;
             that.SelectedItem = (global::System.Object)Value;
+        }
+        private object get_44_DataGrid_ItemsSource(object instance)
+        {
+            var that = (global::MyToolkit.Controls.DataGrid)instance;
+            return that.ItemsSource;
+        }
+        private void set_44_DataGrid_ItemsSource(object instance, object Value)
+        {
+            var that = (global::MyToolkit.Controls.DataGrid)instance;
+            that.ItemsSource = (global::System.Object)Value;
         }
         private object get_45_DataGrid_DefaultOrderIndex(object instance)
         {
@@ -1711,51 +1711,51 @@ namespace CardSortDeskTop.CardSortDeskTop_XamlTypeInfo
                 xamlMember.Getter = get_37_NavigationViewItem_CompactPaneLength;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "MyToolkit.Controls.DataGrid.ItemsSource":
-                userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
-                xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_38_DataGrid_ItemsSource;
-                xamlMember.Setter = set_38_DataGrid_ItemsSource;
-                break;
             case "MyToolkit.Controls.DataGrid.SelectedItems":
                 userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
                 xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "SelectedItems", "System.Collections.Generic.IList`1<Object>");
-                xamlMember.Getter = get_39_DataGrid_SelectedItems;
+                xamlMember.Getter = get_38_DataGrid_SelectedItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "MyToolkit.Controls.DataGrid.Items":
                 userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
                 xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "Items", "MyToolkit.Collections.IObservableCollectionView");
-                xamlMember.Getter = get_40_DataGrid_Items;
+                xamlMember.Getter = get_39_DataGrid_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "MyToolkit.Controls.DataGrid.SelectedColumn":
                 userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
                 xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "SelectedColumn", "MyToolkit.Controls.DataGridColumnBase");
-                xamlMember.Getter = get_41_DataGrid_SelectedColumn;
+                xamlMember.Getter = get_40_DataGrid_SelectedColumn;
                 xamlMember.SetIsReadOnly();
                 break;
             case "MyToolkit.Controls.DataGrid.HeaderBackground":
                 userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
                 xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "HeaderBackground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_DataGrid_HeaderBackground;
-                xamlMember.Setter = set_42_DataGrid_HeaderBackground;
+                xamlMember.Getter = get_41_DataGrid_HeaderBackground;
+                xamlMember.Setter = set_41_DataGrid_HeaderBackground;
                 break;
             case "MyToolkit.Controls.DataGrid.SelectionMode":
                 userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
                 xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "SelectionMode", "Windows.UI.Xaml.Controls.SelectionMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_DataGrid_SelectionMode;
-                xamlMember.Setter = set_43_DataGrid_SelectionMode;
+                xamlMember.Getter = get_42_DataGrid_SelectionMode;
+                xamlMember.Setter = set_42_DataGrid_SelectionMode;
                 break;
             case "MyToolkit.Controls.DataGrid.SelectedItem":
                 userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
                 xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_DataGrid_SelectedItem;
-                xamlMember.Setter = set_44_DataGrid_SelectedItem;
+                xamlMember.Getter = get_43_DataGrid_SelectedItem;
+                xamlMember.Setter = set_43_DataGrid_SelectedItem;
+                break;
+            case "MyToolkit.Controls.DataGrid.ItemsSource":
+                userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");
+                xamlMember = new global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_44_DataGrid_ItemsSource;
+                xamlMember.Setter = set_44_DataGrid_ItemsSource;
                 break;
             case "MyToolkit.Controls.DataGrid.DefaultOrderIndex":
                 userType = (global::CardSortDeskTop.CardSortDeskTop_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyToolkit.Controls.DataGrid");

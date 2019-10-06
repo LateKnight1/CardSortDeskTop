@@ -677,3 +677,8 @@ C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDesk
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\EditCard.xaml
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\EditCard.xbf
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\Pages\EditCard.xbf
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Release\Pages\TransferCards.xbf
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\TransferCards.g.i.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\TransferCards.g.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\TransferCards.xaml
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\Pages\TransferCards.xbf

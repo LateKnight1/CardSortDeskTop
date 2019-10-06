@@ -117,5 +117,6 @@
       <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="CardSortDeskTop.Pages.RemoveDeck" />
+    <RootType FullName="CardSortDeskTop.Pages.TransferCards" />
   </Roots.RootTypes>
 </Roots>

@@ -1,0 +1,125 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="CardSortDeskTop.Pages.AddDeck"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CardSortDeskTop.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                          >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <muxc:NavigationView x:ConnectionId='2'
+            IsBackButtonVisible="Collapsed"
+            IsBackEnabled="False"
+                                             
+                                             
+                                             
+            PaneDisplayMode="LeftCompact"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            x:Name="navView"
+            IsSettingsVisible="False"
+            FontFamily="MV Boli">
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="addDeck"
+                    Content="Add Deck"
+                    Icon="Folder"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="addCard"
+                    Content="Add Card"
+                    Icon="Document"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="remDeck"
+                    Content="Remove Deck"
+                    Icon="Cancel"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="remCard"
+                    Content="Remove Card"
+                    Icon="Delete"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="editCard"
+                    Content="Edit Card"
+                    Icon="Edit"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="transCards"
+                    Content="Transfer Cards"
+                    Icon="Remote"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="graphs"
+                    Content="Graphs"
+                    Icon="FourBars"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="search"
+                    Content="Search Cards"
+                    Icon="Find"
+                    FontFamily="MV Boli"/>
+            </muxc:NavigationView.MenuItems>
+        </muxc:NavigationView>
+
+        <Grid x:ConnectionId='3'
+            Margin="40 0 0 0"
+            x:Name="formData">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBox x:ConnectionId='5'
+                FontFamily="MV Boli"
+                Margin="15 50 25 0"
+                Header="Deck Name"
+                PlaceholderText="Enter the name of the deck"
+                x:Name="nameBox"/>
+            <ComboBox x:ConnectionId='6'
+                Grid.Row="1"
+                HorizontalAlignment="Stretch"
+                Margin="15 25 25 0"
+                Header="Deck Type"
+                PlaceholderText="Select the deck type"
+                x:Name="typeBox">
+                <x:String>Commander</x:String>
+                <x:String>Standard</x:String>
+                <x:String>Extra Cards</x:String>
+            </ComboBox>
+        </Grid>
+        <Button x:ConnectionId='4'
+            Grid.Row="1"
+            Margin="55 20 25 20"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Content="Save"
+            Background="DarkGreen"
+            FontFamily="MV Boli"
+            x:Name="saveButton"
+                                    />
+    </Grid>
+</Page>
+

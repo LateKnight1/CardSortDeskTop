@@ -5,10 +5,142 @@
     xmlns:local="using:CardSortDeskTop.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:grid="using:MyToolkit.Controls"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loading="Page_Loading">
 
     <Grid>
-
+        <muxc:NavigationView
+            IsBackButtonVisible="Collapsed"
+            IsBackEnabled="False"
+            PaneClosing="NavView_PaneClosing"
+            PaneOpening="NavView_PaneOpening"
+            ItemInvoked="NavView_ItemInvoked"
+            PaneDisplayMode="LeftCompact"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            x:Name="navView"
+            IsSettingsVisible="False"
+            FontFamily="MV Boli">
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem
+                    Tag="home"
+                    Content="Home"
+                    Icon="Home"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="addDeck"
+                    Content="Add Deck"
+                    Icon="Folder"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="addCard"
+                    Content="Add Card"
+                    Icon="Document"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="remDeck"
+                    Content="Remove Deck"
+                    Icon="Cancel"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="remCard"
+                    Content="Remove Card"
+                    Icon="Delete"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="editCard"
+                    Content="Edit Card"
+                    Icon="Edit"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="transCards"
+                    Content="Transfer Cards"
+                    Icon="Remote"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItemSeparator/>
+                <muxc:NavigationViewItem
+                    Tag="graphs"
+                    Content="Graphs"
+                    Icon="FourBars"
+                    FontFamily="MV Boli"/>
+                <muxc:NavigationViewItem
+                    Tag="search"
+                    Content="Search Cards"
+                    Icon="Find"
+                    FontFamily="MV Boli"/>
+            </muxc:NavigationView.MenuItems>
+        </muxc:NavigationView>
+        <Grid x:Name="mainGrid"
+              Margin="60 50 0 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <ComboBox x:Name="deckBox1"
+                      FontFamily="MV Boli"
+                      Header="Deck 1"
+                      SelectionChanged="DeckBox1_SelectionChanged"
+                      HorizontalAlignment="Stretch"
+                      Margin="0 0 15 0"/>
+            <ComboBox Grid.Column="1"
+                      x:Name="deckBox2"
+                      FontFamily="MV Boli"
+                      Header="Deck 2"
+                      SelectionChanged="DeckBox2_SelectionChanged"
+                      HorizontalAlignment="Stretch"
+                      Margin="15 0 0 0"/>
+            <grid:DataGrid x:Name="deckCards1"
+                           Grid.Row="1"
+                           Margin="0 15 15 0"/>
+            <grid:DataGrid x:Name="deckCards2"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           Margin="15 15 0 0"/>
+            <Grid Grid.Row="2"
+                  Grid.ColumnSpan="2"
+                  x:Name="buttonsGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="saveButton"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"
+                        Margin="15 20"
+                        Background="Green"
+                        Content="Return to home"
+                        FontFamily="MV Boli"
+                        Click="SaveButton_Click"/>
+                <Button x:Name="toDeck2Button"
+                        Grid.Column="1"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"
+                        Margin="15 20"
+                        Content="Send selected to deck 2"
+                        FontFamily="MV Boli"
+                        Click="ToDeck2Button_Click"/>
+                <Button x:Name="toDeck1Button"
+                        Grid.Column="2"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"
+                        Margin="15 20"
+                        Content="Send selected to deck 1"
+                        FontFamily="MV Boli"
+                        Click="ToDeck1Button_Click"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>
