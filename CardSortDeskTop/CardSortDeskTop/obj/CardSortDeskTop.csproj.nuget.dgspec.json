@@ -53,6 +53,10 @@
             "MyToolkit.Extended": {
               "target": "Package",
               "version": "[2.5.16, )"
+            },
+            "Telerik.UI.for.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[1.0.1.7, )"
             }
           },
           "imports": [

@@ -12,6 +12,7 @@ Microsoft.UI.Xaml\DensityStyles\Compact.xbf
 Pages\AddCard.xbf
 Pages\AddDeck.xbf
 Pages\EditCard.xbf
+Pages\GraphViewMain.xbf
 Pages\MainPage.xbf
 Pages\RemoveCard.xbf
 Pages\RemoveDeck.xbf

@@ -30,6 +30,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.9\build\Microsoft.NETCore.UniversalWindowsPlatform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.9\build\Microsoft.NETCore.UniversalWindowsPlatform.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgTelerik_UI_for_UniversalWindowsPlatform Condition=" '$(PkgTelerik_UI_for_UniversalWindowsPlatform)' == '' ">C:\Users\schlu\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.1.7</PkgTelerik_UI_for_UniversalWindowsPlatform>
     <Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk)' == '' ">C:\Users\schlu\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9</Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk>
     <Pkgruntime_win10-x86_Microsoft_Net_Native_SharedLibrary Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_Native_SharedLibrary)' == '' ">C:\Users\schlu\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.7-rel-27913-00</Pkgruntime_win10-x86_Microsoft_Net_Native_SharedLibrary>
     <Pkgruntime_win10-x86_Microsoft_Net_Native_Compiler Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_Native_Compiler)' == '' ">C:\Users\schlu\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.7-rel-27913-00</Pkgruntime_win10-x86_Microsoft_Net_Native_Compiler>
