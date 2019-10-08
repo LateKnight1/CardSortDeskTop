@@ -126,6 +126,9 @@
       <DependentUpon>AddDeck.xaml</DependentUpon>
     </Compile>
     <Compile Include="NavigationModule.cs" />
+    <Compile Include="Pages\BarGraphView.xaml.cs">
+      <DependentUpon>BarGraphView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EditCard.xaml.cs">
       <DependentUpon>EditCard.xaml</DependentUpon>
     </Compile>
@@ -171,6 +174,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\AddDeck.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\BarGraphView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
