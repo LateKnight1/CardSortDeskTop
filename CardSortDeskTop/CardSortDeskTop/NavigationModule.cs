@@ -35,6 +35,9 @@ namespace CardSortDeskTop
                 case "transCards":
                     frame.Navigate(typeof(TransferCards));
                     return;
+                case "graphs":
+                    frame.Navigate(typeof(GraphViewMain));
+                    return;
             }
         }
     }
