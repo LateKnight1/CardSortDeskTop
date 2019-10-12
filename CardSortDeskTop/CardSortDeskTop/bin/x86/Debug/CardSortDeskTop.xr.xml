@@ -102,16 +102,17 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="CardSortDeskTop.Pages.BarGraphView" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.RadPieChart">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="CardSortDeskTop.Pages.DoubleGraphView" />
     <RootType FullName="MyToolkit.Controls.DataGrid">
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
     </RootType>
     <RootType FullName="CardSortDeskTop.Pages.EditCard" />
-    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.RadPieChart">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Margin" />
-    </RootType>
     <RootType FullName="CardSortDeskTop.Pages.GraphViewMain" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />

@@ -129,6 +129,9 @@
     <Compile Include="Pages\BarGraphView.xaml.cs">
       <DependentUpon>BarGraphView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\DoubleGraphView.xaml.cs">
+      <DependentUpon>DoubleGraphView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EditCard.xaml.cs">
       <DependentUpon>EditCard.xaml</DependentUpon>
     </Compile>
@@ -178,6 +181,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\BarGraphView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DoubleGraphView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
