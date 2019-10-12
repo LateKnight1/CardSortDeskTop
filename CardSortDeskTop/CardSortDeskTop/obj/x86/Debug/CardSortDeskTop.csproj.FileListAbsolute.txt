@@ -175,3 +175,8 @@ C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDesk
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Telerik.UI.Xaml.Primitives.UWP.pri.xml
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\.winmd_cache\$Telerik.UI.Drawing.winmd_637049864820000000.json
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\CardSortDeskTop.csprojAssemblyReference.cache
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\BarGraphView.xbf
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\BarGraphView.g.i.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\BarGraphView.g.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\BarGraphView.xaml
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\BarGraphView.xbf

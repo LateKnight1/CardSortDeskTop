@@ -124,6 +124,9 @@
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\AddDeck.xbf">
       <PackagePath>Pages\AddDeck.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\BarGraphView.xbf">
+      <PackagePath>Pages\BarGraphView.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\EditCard.xbf">
       <PackagePath>Pages\EditCard.xbf</PackagePath>
     </AppxPackagedFile>

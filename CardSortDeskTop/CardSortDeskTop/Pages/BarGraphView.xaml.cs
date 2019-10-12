@@ -12,7 +12,6 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using Telerik;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -21,16 +20,16 @@ namespace CardSortDeskTop.Pages
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class GraphViewMain : Page
+    public sealed partial class BarGraphView : Page
     {
         private string deckName, graphType;
-        public GraphViewMain()
+        public BarGraphView()
         {
             this.InitializeComponent();
         }
 
-        public GraphViewMain(string deckName, string graphType)
-            : base()
+        public BarGraphView(string deckName, string graphType)
+            :base()
         {
             this.deckName = deckName;
             this.graphType = graphType;
@@ -38,7 +37,7 @@ namespace CardSortDeskTop.Pages
 
         public static void LoadPageWithData(string deckName, string graphType)
         {
-            GraphViewMain mainGraph = new GraphViewMain(deckName, graphType);
+            BarGraphView barGraph = new BarGraphView(deckName, graphType);
         }
 
         private void Page_Loading(FrameworkElement sender, object args)
@@ -62,17 +61,17 @@ namespace CardSortDeskTop.Pages
             NavigationModule.NavigateTo(pageTag, Frame);
         }
 
-        private void ReturnButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void DeckBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
 
         private void TypeBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ReturnButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
