@@ -116,10 +116,11 @@
             <Button x:Name="returnButton"
                     Grid.Row="2"
                     Width="200"
-                    Content="Return To Home"
+                    Content="Return Home"
                     VerticalAlignment="Stretch"
                     Margin="15 20 0 20"
                     Background="Green"
+                    FontFamily="MV Boli"
                     Click="ReturnButton_Click"/>
         </Grid>
     </Grid>

@@ -11,6 +11,7 @@ CardSortDeskTop.xr.xml
 Microsoft.UI.Xaml\DensityStyles\Compact.xbf
 Pages\AddCard.xbf
 Pages\AddDeck.xbf
+Pages\BarGraphView.xbf
 Pages\EditCard.xbf
 Pages\GraphViewMain.xbf
 Pages\MainPage.xbf

@@ -98,6 +98,10 @@
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" />
     <RootType FullName="CardSortDeskTop.Pages.AddCard" />
     <RootType FullName="CardSortDeskTop.Pages.AddDeck" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.RadCartesianChart">
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="CardSortDeskTop.Pages.BarGraphView" />
     <RootType FullName="MyToolkit.Controls.DataGrid">
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />

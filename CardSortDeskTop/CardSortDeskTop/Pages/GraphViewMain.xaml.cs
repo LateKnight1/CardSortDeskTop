@@ -23,9 +23,22 @@ namespace CardSortDeskTop.Pages
     /// </summary>
     public sealed partial class GraphViewMain : Page
     {
+        private string deckName, graphType;
         public GraphViewMain()
         {
             this.InitializeComponent();
+        }
+
+        public GraphViewMain(string deckName, string graphType)
+            : base()
+        {
+            this.deckName = deckName;
+            this.graphType = graphType;
+        }
+
+        public static void LoadPageWithData(string deckName, string graphType)
+        {
+            GraphViewMain mainGraph = new GraphViewMain(deckName, graphType);
         }
 
         private void Page_Loading(FrameworkElement sender, object args)

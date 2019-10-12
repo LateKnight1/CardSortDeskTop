@@ -22,9 +22,58 @@ namespace CardSortDeskTop.Pages
     /// </summary>
     public sealed partial class BarGraphView : Page
     {
+        private string deckName, graphType;
         public BarGraphView()
         {
             this.InitializeComponent();
+        }
+
+        public BarGraphView(string deckName, string graphType)
+            :base()
+        {
+            this.deckName = deckName;
+            this.graphType = graphType;
+        }
+
+        public static void LoadPageWithData(string deckName, string graphType)
+        {
+            BarGraphView barGraph = new BarGraphView(deckName, graphType);
+        }
+
+        private void Page_Loading(FrameworkElement sender, object args)
+        {
+            navView.IsPaneOpen = false;
+        }
+
+        private void NavView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)
+        {
+            mainGrid.Visibility = Visibility.Visible;
+        }
+
+        private void NavView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
+        {
+            mainGrid.Visibility = Visibility.Collapsed;
+        }
+
+        private void NavView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
+        {
+            string pageTag = args.InvokedItemContainer.Tag.ToString();
+            NavigationModule.NavigateTo(pageTag, Frame);
+        }
+
+        private void DeckBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void TypeBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ReturnButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
