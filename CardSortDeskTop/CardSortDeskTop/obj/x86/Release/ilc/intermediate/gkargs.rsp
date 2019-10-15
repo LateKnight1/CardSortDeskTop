@@ -1,0 +1,11 @@
+﻿"C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in\CardSortDataTypes.dll"
+"C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in\CardSortDeskTop.exe"
+"C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in\MyToolkit.dll"
+"C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in\MyToolkit.Extended.dll"
+/Lib:"C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in"
+/Lib:"C:\Users\schlu\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\x86\ilc\lib\Private"
+/WinMD:"C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd"
+/WinMD:"C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"dbc6a0af-273d-4d71-a069-98097425ceb2","Id":"d06291af-eb8c-4ca6-a294-b9ee7bb18c7c","ProcessStartTime":637058882452197851}"
+/RdXmlPath:"C:\Users\schlu\.nuget\packages\microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\LibraryXML"
+/RunOnlyPreDR

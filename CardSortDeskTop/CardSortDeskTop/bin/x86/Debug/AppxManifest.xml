@@ -16,9 +16,9 @@
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0" />
-    <PackageDependency Name="Microsoft.UI.Xaml.2.1" MinVersion="2.11906.6001.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
-    <PackageDependency Name="Microsoft.NET.CoreRuntime.2.2" MinVersion="2.2.27404.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
-    <PackageDependency Name="Microsoft.NET.CoreFramework.Debug.2.2" MinVersion="2.2.27505.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.UI.Xaml.2.2" MinVersion="2.21909.17002.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.CoreRuntime.2.2" MinVersion="2.2.27902.3" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.CoreFramework.Debug.2.2" MinVersion="2.2.27909.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.27323.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
@@ -42,13 +42,32 @@
         <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Telerik.UI.Drawing.dll</Path>
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShapeContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DGeometryShape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DTextStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DRectangle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DCanvas" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DMultiPolygon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DTextBlock" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DResource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShapeStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DPolyline" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DLine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DSolidColorBrush" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
   </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
     <build:Item Name="OperatingSystem" Version="10.0.18898.1000 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29201.148" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29230.47" />
     <build:Item Name="ProjectGUID" Value="{45D71AA4-4519-4831-94C3-E71211B16DAF}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
