@@ -38,6 +38,13 @@ namespace CardSortDeskTop
                 case "graphs":
                     frame.Navigate(typeof(GraphViewMain));
                     return;
+                case "search":
+                    frame.Navigate(typeof(SearchCards));
+                    return;
+                default:
+                    // TODO: Implement ErrorHandling
+                    // Errors.PageNotFound();
+                    return;
             }
         }
     }

@@ -145,6 +145,9 @@
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\RemoveDeck.xbf">
       <PackagePath>Pages\RemoveDeck.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\SearchCards.xbf">
+      <PackagePath>Pages\SearchCards.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\TransferCards.xbf">
       <PackagePath>Pages\TransferCards.xbf</PackagePath>
     </AppxPackagedFile>

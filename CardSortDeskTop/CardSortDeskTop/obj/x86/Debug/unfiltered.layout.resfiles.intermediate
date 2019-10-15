@@ -18,5 +18,6 @@ Pages\GraphViewMain.xbf
 Pages\MainPage.xbf
 Pages\RemoveCard.xbf
 Pages\RemoveDeck.xbf
+Pages\SearchCards.xbf
 Pages\TransferCards.xbf
 Properties\Default.rd.xml

@@ -71,6 +71,7 @@
       <RootProperty Name="Name" />
       <RootEvent Name="FocusEngaged" />
       <RootEvent Name="FocusDisengaged" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Margin" />
@@ -129,6 +130,7 @@
       <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="CardSortDeskTop.Pages.RemoveDeck" />
+    <RootType FullName="CardSortDeskTop.Pages.SearchCards" />
     <RootType FullName="CardSortDeskTop.Pages.TransferCards" />
   </Roots.RootTypes>
 </Roots>
