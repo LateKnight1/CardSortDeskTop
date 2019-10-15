@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="CardSortDeskTop.Pages.SearchCards"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,15 +9,15 @@
     xmlns:mtk="using:MyToolkit.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    Loading="Page_Loading">
+                          >
 
     <Grid>
-        <muxc:NavigationView
+        <muxc:NavigationView x:ConnectionId='2'
             IsBackButtonVisible="Collapsed"
             IsBackEnabled="False"
-            PaneClosing="NavView_PaneClosing"
-            PaneOpening="NavView_PaneOpening"
-            ItemInvoked="NavView_ItemInvoked"
+                                             
+                                             
+                                             
             PaneDisplayMode="LeftCompact"
             Grid.RowSpan="2"
             Grid.ColumnSpan="2"
@@ -76,7 +76,7 @@
                     FontFamily="MV Boli"/>
             </muxc:NavigationView.MenuItems>
         </muxc:NavigationView>
-        <Grid x:Name="mainGrid"
+        <Grid x:ConnectionId='3' x:Name="mainGrid"
               Margin="60 50 0 0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -87,29 +87,29 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBox x:Name="searchTerm"
+            <TextBox x:ConnectionId='4' x:Name="searchTerm"
                      Header="Search"
                      FontFamily="MV Boli"
                      Margin="0 0 15 0"
-                     TextChanged="SearchTerm_TextChanged"/>
-            <ComboBox x:Name="searchBy"
+                                                         />
+            <ComboBox x:ConnectionId='5' x:Name="searchBy"
                       Grid.Column="1"
                       FontFamily="MV Boli"
                       Margin="15 0"
                       HorizontalAlignment="Stretch"
                       Header="Card Property"
-                      SelectionChanged="SearchBy_SelectionChanged">
+                                                                  >
                 <x:String>Name</x:String>
                 <x:String>Type</x:String>
                 <x:String>Color</x:String>
                 <x:String>Rarity</x:String>
             </ComboBox>
-            <mtk:DataGrid x:Name="resultsView"
+            <mtk:DataGrid x:ConnectionId='6' x:Name="resultsView"
                           Margin="0 15 15 0"
                           Grid.Column="0"
                           Grid.Row="1"
                           Grid.ColumnSpan="2"/>
-            <Button Width="200"
+            <Button x:ConnectionId='7' Width="200"
                     Grid.Row="2"
                     VerticalAlignment="Stretch"
                     Margin="0 20"
@@ -117,11 +117,12 @@
                     FontFamily="MV Boli"
                     Content="Return Home"
                     x:Name="returnButton"
-                    Click="ReturnButton_Click"/>
-            <TextBlock Grid.Row="2"
+                                              />
+            <TextBlock x:ConnectionId='8' Grid.Row="2"
                        Grid.Column="1"
                        x:Name="resultsCount"
                        FontFamily="MV Boli"/>
         </Grid>
     </Grid>
 </Page>
+

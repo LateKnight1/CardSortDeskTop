@@ -26,5 +26,41 @@ namespace CardSortDeskTop.Pages
         {
             this.InitializeComponent();
         }
+
+        private void Page_Loading(FrameworkElement sender, object args)
+        {
+            navView.IsPaneOpen = false;
+        }
+
+        private void NavView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)
+        {
+            mainGrid.Visibility = Visibility.Visible;
+        }
+
+        private void NavView_PaneOpening(Microsoft.UI.Xaml.Controls.NavigationView sender, object args)
+        {
+            mainGrid.Visibility = Visibility.Collapsed;
+        }
+
+        private void NavView_ItemInvoked(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs args)
+        {
+            string pageTag = args.InvokedItemContainer.Tag.ToString();
+            NavigationModule.NavigateTo(pageTag, Frame);
+        }
+
+        private void SearchTerm_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void SearchBy_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ReturnButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

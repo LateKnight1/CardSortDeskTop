@@ -185,3 +185,8 @@ C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDesk
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\DoubleGraphView.g.cs
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\DoubleGraphView.xaml
 C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\DoubleGraphView.xbf
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\SearchCards.xbf
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\SearchCards.g.i.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\SearchCards.g.cs
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\SearchCards.xaml
+C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\obj\x86\Debug\Pages\SearchCards.xbf
