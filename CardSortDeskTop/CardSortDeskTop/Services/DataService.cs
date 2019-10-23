@@ -37,5 +37,60 @@ namespace CardSortDeskTop.Services
 
             return null;
         }
+
+        public static string[] GetDeckNames()
+        {
+            string[] names = new string[decks.Count];
+            int i = 0;
+
+            foreach(Deck deck in decks)
+            {
+                names[i] = deck.Name;
+            }
+
+            return names;
+        }
+
+        public static void AddCardToDeck(Deck deck, Card card)
+        {
+            switch (deck.Type)
+            {
+                case "Commander":
+                    CommanderDeck commanderDeck = deck as CommanderDeck;
+                    commanderDeck.AddCard(card);
+                    return;
+                case "Standard":
+                    StandardDeck standardDeck = deck as StandardDeck;
+                    standardDeck.AddCard(card);
+                    return;
+                case "Extras":
+                    ExtraCards extraCards = deck as ExtraCards;
+                    extraCards.AddCard(card);
+                    return;
+                default:
+                    //Handle Error
+                    return;
+            }
+        }
+
+        private static Deck CreateDeck(string name, string type)
+        {
+            switch (type)
+            {
+                case "Commander":
+                    CommanderDeck commander = new CommanderDeck(name, type);
+                    return commander;
+                case "Standard":
+                    StandardDeck standard = new StandardDeck(name, type);
+                    return standard;
+                case "Extras":
+                    ExtraCards extras = new ExtraCards(name, type);
+                    return extras;
+                default:
+                    //Implement error handling
+                    return null;
+            }
+        }
+
     }
 }

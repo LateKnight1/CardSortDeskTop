@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardSortDeskTop.Services
 {
-    class DeckService
+    class DataReadWriteService
     {
         private static HttpClient httpClient = new HttpClient();
 
@@ -36,7 +36,7 @@ namespace CardSortDeskTop.Services
                     i++;
                     string type = GetValueFromResult(valuesArray[i]);
 
-                    var deck = CreateDeck(name, type);
+                    var deck = DataService.CreateDeck(name, type);
                     decks.Add(deck);
                 }
             }
@@ -85,7 +85,7 @@ namespace CardSortDeskTop.Services
                     cost = GetValueFromResult(valuesArray[i]);
                     int.TryParse(id, out int iid);
                     Card card = new Card(iid, name, type, d, colors, rarity, cost);
-                    AddCardToDeck(deck, card);
+                    DataService.AddCardToDeck(deck, card);
                 }
             }
             catch(Exception e)
@@ -119,25 +119,6 @@ namespace CardSortDeskTop.Services
                 default:
                     //Handle Error
                     return;
-            }
-        }
-
-        private static Deck CreateDeck(string name, string type)
-        {
-            switch (type)
-            {
-                case "Commander":
-                    CommanderDeck commander = new CommanderDeck(name, type);
-                    return commander;
-                case "Standard":
-                    StandardDeck standard = new StandardDeck(name, type);
-                    return standard;
-                case "Extras":
-                    ExtraCards extras = new ExtraCards(name, type);
-                    return extras;
-                default:
-                    //Implement error handling
-                    return null;
             }
         }
     }

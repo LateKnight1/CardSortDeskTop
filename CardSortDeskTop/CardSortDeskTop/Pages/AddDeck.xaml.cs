@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using CardSortDeskTop.Services;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,11 +26,13 @@ namespace CardSortDeskTop.Pages
         public AddDeck()
         {
             this.InitializeComponent();
-            navView.IsPaneOpen = false;
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            string name = nameBox.Text;
+            string type = typeBox.SelectedItem.ToString();
+
 
         }
 
@@ -53,7 +56,7 @@ namespace CardSortDeskTop.Pages
 
         private void Page_Loading(FrameworkElement sender, object args)
         {
-
+            navView.IsPaneOpen = false;
         }
     }
 }
