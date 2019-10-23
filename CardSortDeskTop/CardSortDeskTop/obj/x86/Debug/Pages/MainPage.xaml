@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
-    xmlns:grid="using:MyToolkit.Controls"
+    xmlns:grid="using:Microsoft.Toolkit.Uwp.UI.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
                           >
@@ -94,7 +94,7 @@
             Grid.Column="1"
             Margin="15 40 25 0"
             x:Name="cardBox"
-            ItemsSource="{Binding cardsList}"/>
+                                            />
         <Button x:ConnectionId='5' Grid.Column="0"
                 Grid.Row="1"
                 x:Name="openButton"
