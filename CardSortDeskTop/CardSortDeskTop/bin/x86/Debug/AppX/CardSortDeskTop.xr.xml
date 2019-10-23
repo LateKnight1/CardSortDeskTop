@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="cardsList" />
     <RootPropertyPathName Name="DeckNames" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -111,7 +110,6 @@
     <RootType FullName="CardSortDeskTop.Pages.DoubleGraphView" />
     <RootType FullName="MyToolkit.Controls.DataGrid">
       <RootProperty Name="Margin" />
-      <RootProperty Name="ItemsSource" />
     </RootType>
     <RootType FullName="CardSortDeskTop.Pages.EditCard" />
     <RootType FullName="CardSortDeskTop.Pages.GraphViewMain" />
@@ -119,6 +117,11 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
     </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemsSource" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="CardSortDeskTop.MainPage" />
     <RootType FullName="CardSortDeskTop.Pages.RemoveCard" />
