@@ -33,7 +33,8 @@ namespace CardSortDeskTop.Pages
             string name = nameBox.Text;
             string type = typeBox.SelectedItem.ToString();
 
-
+            var deck = DataService.CreateDeck(name, type);
+            DataService.AddDeck(deck);
         }
 
         private void NavView_PaneClosing(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewPaneClosingEventArgs args)

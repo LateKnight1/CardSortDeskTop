@@ -1,14 +1,36 @@
 ﻿using CardSortDataTypes;
 using System;
 using System.Collections.Generic;
-using Windows.Web.Http;
 using System.Threading.Tasks;
+using System.Net.Http;
 
 namespace CardSortDeskTop.Services
 {
     class DataReadWriteService
     {
         private static HttpClient httpClient = new HttpClient();
+
+        public static async Task<bool> WriteDeckToDataBase(Deck deck)
+        {
+            var requestUri = new Uri($"http://cardsortapi.net/api/decks");
+            var username = new StringContent("swordmasterd");
+            MultipartFormDataContent content = new MultipartFormDataContent();
+            content.Add(username, "username");
+            content.Add(new StringContent(deck.Name), "name");
+            content.Add(new StringContent(deck.Type), "type");
+
+            try
+            {
+                var message = await httpClient.PostAsync(requestUri, content);
+                message.EnsureSuccessStatusCode();
+            }
+            catch(Exception e)
+            {
+                // implement error handling
+                Console.WriteLine(e.Message);
+            }
+            return true;
+        }
 
         public static async Task<bool> GetDecks()
         {
@@ -100,26 +122,5 @@ namespace CardSortDeskTop.Services
             return result.Split(':')[1];
         }
 
-        public static void AddCardToDeck(Deck deck, Card card)
-        {
-            switch (deck.Type)
-            {
-                case "Commander":
-                    CommanderDeck commanderDeck = deck as CommanderDeck;
-                    commanderDeck.AddCard(card);
-                    return;
-                case "Standard":
-                    StandardDeck standardDeck = deck as StandardDeck;
-                    standardDeck.AddCard(card);
-                    return;
-                case "Extras":
-                    ExtraCards extraCards = deck as ExtraCards;
-                    extraCards.AddCard(card);
-                    return;
-                default:
-                    //Handle Error
-                    return;
-            }
-        }
     }
 }

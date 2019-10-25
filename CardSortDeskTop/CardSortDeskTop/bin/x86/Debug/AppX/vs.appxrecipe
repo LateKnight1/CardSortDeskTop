@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-23T00:38:26.778</Modified>
+      <Modified>2019-10-24T13:58:46.461</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\CardSortDeskTop.exe">
       <PackagePath>entrypoint\CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-10-23T00:38:23.216</Modified>
+      <Modified>2019-10-24T13:58:42.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\.nuget\packages\cardsortdatatypes\1.0.0\lib\netstandard2.0\CardSortDataTypes.dll">
       <PackagePath>CardSortDataTypes.dll</PackagePath>
@@ -154,55 +154,55 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.604</Modified>
+      <Modified>2019-10-24T13:58:41.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.605</Modified>
+      <Modified>2019-10-24T13:58:41.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\AddCard.xbf">
       <PackagePath>Pages\AddCard.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.494</Modified>
+      <Modified>2019-10-24T13:58:41.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\AddDeck.xbf">
       <PackagePath>Pages\AddDeck.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.607</Modified>
+      <Modified>2019-10-24T13:58:41.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\BarGraphView.xbf">
       <PackagePath>Pages\BarGraphView.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.608</Modified>
+      <Modified>2019-10-24T13:58:41.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\DoubleGraphView.xbf">
       <PackagePath>Pages\DoubleGraphView.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.608</Modified>
+      <Modified>2019-10-24T13:58:41.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\EditCard.xbf">
       <PackagePath>Pages\EditCard.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.579</Modified>
+      <Modified>2019-10-24T13:58:41.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\GraphViewMain.xbf">
       <PackagePath>Pages\GraphViewMain.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.610</Modified>
+      <Modified>2019-10-24T13:58:41.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.611</Modified>
+      <Modified>2019-10-24T13:58:41.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\RemoveCard.xbf">
       <PackagePath>Pages\RemoveCard.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.612</Modified>
+      <Modified>2019-10-24T13:58:41.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\RemoveDeck.xbf">
       <PackagePath>Pages\RemoveDeck.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.613</Modified>
+      <Modified>2019-10-24T13:58:41.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\SearchCards.xbf">
       <PackagePath>Pages\SearchCards.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.614</Modified>
+      <Modified>2019-10-24T13:58:41.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Pages\TransferCards.xbf">
       <PackagePath>Pages\TransferCards.xbf</PackagePath>
-      <Modified>2019-10-23T00:38:22.615</Modified>
+      <Modified>2019-10-24T13:58:41.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -498,7 +498,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schlu\Desktop\Git Projects\CardSortDeskTop\CardSortDeskTop\CardSortDeskTop\bin\x86\Debug\Core\CardSortDeskTop.exe">
       <PackagePath>CardSortDeskTop.exe</PackagePath>
-      <Modified>2019-10-23T00:38:26.729</Modified>
+      <Modified>2019-10-24T13:58:46.390</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

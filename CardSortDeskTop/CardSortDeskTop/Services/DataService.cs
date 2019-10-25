@@ -73,7 +73,7 @@ namespace CardSortDeskTop.Services
             }
         }
 
-        private static Deck CreateDeck(string name, string type)
+        public static Deck CreateDeck(string name, string type)
         {
             switch (type)
             {
@@ -92,5 +92,10 @@ namespace CardSortDeskTop.Services
             }
         }
 
+        public static async void AddDeck(Deck deck)
+        {
+            decks.Add(deck);
+            await DataReadWriteService.WriteDeckToDataBase(deck);
+        }
     }
 }
