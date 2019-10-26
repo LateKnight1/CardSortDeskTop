@@ -1,14 +1,36 @@
 ﻿using CardSortDataTypes;
 using System;
 using System.Collections.Generic;
-using Windows.Web.Http;
 using System.Threading.Tasks;
+using System.Net.Http;
 
 namespace CardSortDeskTop.Services
 {
-    class DeckService
+    class DataReadWriteService
     {
         private static HttpClient httpClient = new HttpClient();
+
+        public static async Task<bool> WriteDeckToDataBase(Deck deck)
+        {
+            var requestUri = new Uri($"http://cardsortapi.net/api/decks");
+            var username = new StringContent("swordmasterd");
+            MultipartFormDataContent content = new MultipartFormDataContent();
+            content.Add(username, "username");
+            content.Add(new StringContent(deck.Name), "name");
+            content.Add(new StringContent(deck.Type), "type");
+
+            try
+            {
+                var message = await httpClient.PostAsync(requestUri, content);
+                message.EnsureSuccessStatusCode();
+            }
+            catch(Exception e)
+            {
+                // implement error handling
+                Console.WriteLine(e.Message);
+            }
+            return true;
+        }
 
         public static async Task<bool> GetDecks()
         {
@@ -36,7 +58,7 @@ namespace CardSortDeskTop.Services
                     i++;
                     string type = GetValueFromResult(valuesArray[i]);
 
-                    var deck = CreateDeck(name, type);
+                    var deck = DataService.CreateDeck(name, type);
                     decks.Add(deck);
                 }
             }
@@ -85,7 +107,7 @@ namespace CardSortDeskTop.Services
                     cost = GetValueFromResult(valuesArray[i]);
                     int.TryParse(id, out int iid);
                     Card card = new Card(iid, name, type, d, colors, rarity, cost);
-                    AddCardToDeck(deck, card);
+                    DataService.AddCardToDeck(deck, card);
                 }
             }
             catch(Exception e)
@@ -100,45 +122,5 @@ namespace CardSortDeskTop.Services
             return result.Split(':')[1];
         }
 
-        public static void AddCardToDeck(Deck deck, Card card)
-        {
-            switch (deck.Type)
-            {
-                case "Commander":
-                    CommanderDeck commanderDeck = deck as CommanderDeck;
-                    commanderDeck.AddCard(card);
-                    return;
-                case "Standard":
-                    StandardDeck standardDeck = deck as StandardDeck;
-                    standardDeck.AddCard(card);
-                    return;
-                case "Extras":
-                    ExtraCards extraCards = deck as ExtraCards;
-                    extraCards.AddCard(card);
-                    return;
-                default:
-                    //Handle Error
-                    return;
-            }
-        }
-
-        private static Deck CreateDeck(string name, string type)
-        {
-            switch (type)
-            {
-                case "Commander":
-                    CommanderDeck commander = new CommanderDeck(name, type);
-                    return commander;
-                case "Standard":
-                    StandardDeck standard = new StandardDeck(name, type);
-                    return standard;
-                case "Extras":
-                    ExtraCards extras = new ExtraCards(name, type);
-                    return extras;
-                default:
-                    //Implement error handling
-                    return null;
-            }
-        }
     }
 }

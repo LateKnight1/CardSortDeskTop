@@ -104,7 +104,8 @@
                 Margin="15 25 25 0"
                 Header="Deck Type"
                 PlaceholderText="Select the deck type"
-                x:Name="typeBox">
+                x:Name="typeBox"
+                FontFamily="MV Boli">
                 <x:String>Commander</x:String>
                 <x:String>Standard</x:String>
                 <x:String>Extra Cards</x:String>

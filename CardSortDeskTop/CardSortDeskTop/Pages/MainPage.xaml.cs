@@ -29,7 +29,7 @@ namespace CardSortDeskTop
             deckBox.ItemsSource = null;
             if(DataService.decks.Count == 0)
             {
-                await DeckService.GetDecks();
+                await DataReadWriteService.GetDecks();
             }
             foreach(Deck deck in DataService.decks)
             {
@@ -68,7 +68,7 @@ namespace CardSortDeskTop
             var cards = DataService.GetCardsFromDeck(selectedDeck);
             if(cards == null || cards.Count == 0)
             {
-                await DeckService.GetCardsForDeck(selectedDeck);
+                await DataReadWriteService.GetCardsForDeck(selectedDeck);
             }
 
             CardsList = cards;
